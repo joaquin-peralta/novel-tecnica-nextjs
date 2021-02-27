@@ -1,0 +1,116 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Link from 'next/link';
+import Image from 'next/image';
+import * as FaIcons from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
+
+function Footer() {
+  return (
+    <footer>
+      <IconContext.Provider value={{ size: '2.2rem', color: '#DDD' }}>
+        <div className="Footer">
+          <Container>
+            <Row>
+              <Col md>
+                <Row className="align-items-center">
+                  <Col>
+                    <div className="img-fluid my-4">
+                      <Image
+                        src="/logo2.png"
+                        alt="Novel Técnica logo"
+                        width={1000}
+                        height={600}
+                      />
+                    </div>
+                  </Col>
+                  <Col md>
+                    <div className="Footer__social">
+                      <a
+                        className="d-inline-block p-1"
+                        href="https://www.facebook.com/Novel-T%C3%A9cnica-310807452905315"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaIcons.FaFacebook />
+                      </a>
+                      <a
+                        className="d-inline-block p-1"
+                        href="https://www.instagram.com/novel.tecnica/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <FaIcons.FaInstagram />
+                      </a>
+                    </div>
+                  </Col>
+                </Row>
+              </Col>
+              <Col md>
+                <aside>
+                  <h4 className="Footer__subheader mb-3">Oficina</h4>
+                  <ul className="Footer__list">
+                    <li>
+                      <span className="ml-0 font-weight-bold">Dirección: </span>
+                      <span className="ml-0">
+                        Belgrano 2246 - CP 3080 Esperanza - Santa Fe
+                      </span>
+                    </li>
+                    <li>
+                      <span className="ml-0 font-weight-bold">
+                        Horario de atención:{' '}
+                      </span>
+                      <span className="ml-0">
+                        de Lunes a Viernes de 9 a 17 hs.
+                      </span>
+                    </li>
+                    <li>
+                      <span className="ml-0 font-weight-bold">
+                        Teléfono / Whatsapp:{' '}
+                      </span>
+                      <span className="ml-0">(+54) 3496-548841</span>
+                    </li>
+                    <li>
+                      <span className="ml-0 font-weight-bold">Email: </span>
+                      <span className="ml-0">pablolbonvin@gmail.com</span>
+                    </li>
+                  </ul>
+                </aside>
+              </Col>
+              <Col md>
+                <nav className="Footer__navigation">
+                  <h4 className="Footer__subheader mb-3">Secciones</h4>
+                  <ul className="Footer__navigation-list">
+                    <Link href="/">
+                      <a>
+                        <li>Inicio</li>
+                      </a>
+                    </Link>
+                    <Link href="/about">
+                      <a>
+                        <li>Quiénes somos</li>
+                      </a>
+                    </Link>
+                    <Link href="/equipment">
+                      <a>
+                        <li>Equipos</li>
+                      </a>
+                    </Link>
+                    <Link href="/contact">
+                      <a>
+                        <li>Contacto</li>
+                      </a>
+                    </Link>
+                  </ul>
+                </nav>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </IconContext.Provider>
+    </footer>
+  );
+}
+
+export default Footer;

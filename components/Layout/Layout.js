@@ -1,12 +1,13 @@
 /* eslint-disable import/no-unresolved */
 import Navbar from '@components/Navbar/Navbar';
+import Footer from '@components/Footer/Footer';
 
 const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
       {children}
-      <footer>I'm de footer</footer>
+      <Footer />
     </>
   );
 };

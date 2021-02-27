@@ -42,10 +42,10 @@ const Home = () => {
                   </p>
                   <div className="img-fluid">
                     <Image
-                      src="/logo.png"
+                      src="/logo2.png"
                       alt="Novel Técnica logo"
-                      width={1413}
-                      height={972}
+                      width={400}
+                      height={270}
                     />
                   </div>
                 </Col>
@@ -71,9 +71,9 @@ const Home = () => {
           <div className="mb-5">
             <IconContext.Provider value={{ color: '#23BFC4' }}>
               <Container>
-                <Row className="justify-content-center">
+                <Row sm={2} lg={4} className="justify-content-center">
                   <div className="mb-3">
-                    <Col sm={12} md={6}>
+                    <Col sm lg>
                       <Card>
                         <ul className="list-unstyled text-center">
                           <li className="Card__icon">
@@ -91,7 +91,7 @@ const Home = () => {
                     </Col>
                   </div>
                   <div className="mb-3">
-                    <Col sm={12} md={6}>
+                    <Col sm lg>
                       <Card>
                         <ul className="list-unstyled text-center">
                           <li className="Card__icon">
@@ -109,7 +109,7 @@ const Home = () => {
                     </Col>
                   </div>
                   <div className="mb-2">
-                    <Col sm={12} md={6}>
+                    <Col sm lg>
                       <Card>
                         <ul className="list-unstyled text-center">
                           <li className="Card__icon">
@@ -127,7 +127,7 @@ const Home = () => {
                     </Col>
                   </div>
                   <div className="mb-3">
-                    <Col sm={12} md={6}>
+                    <Col sm lg>
                       <Card>
                         <ul className="list-unstyled text-center">
                           <li className="Card__icon">
@@ -158,9 +158,9 @@ const Home = () => {
         <Container>
           <IconContext.Provider value={{ size: '2.4rem' }}>
             <div className="text-center">
-              <Row>
+              <Row md={2}>
                 <div className="mb-3">
-                  <Col sm>
+                  <Col>
                     <Link href="/equipment">
                       <a className="text-reset text-decoration-none">
                         <SquareCard color="blue">
@@ -177,7 +177,7 @@ const Home = () => {
                   </Col>
                 </div>
                 <div className="mb-3">
-                  <Col sm>
+                  <Col>
                     <Link href="/equipment">
                       <a className="text-reset text-decoration-none">
                         <SquareCard color="green">
@@ -193,8 +193,10 @@ const Home = () => {
                     </Link>
                   </Col>
                 </div>
+              </Row>
+              <Row className="justify-content-center">
                 <div className="mb-3">
-                  <Col sm>
+                  <Col>
                     <Link href="/equipment">
                       <a
                         to="/equipment"
