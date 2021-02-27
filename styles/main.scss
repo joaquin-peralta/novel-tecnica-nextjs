@@ -1,7 +1,14 @@
 @import './utils/variables';
 @import './utils/fonts';
 @import './utils/reset';
+@import './utils/normalize';
+@import './utils/global';
 @import './components/navbar';
+@import './components/button';
+@import './components/footer';
+@import './components/card';
+@import './components/featureCard';
+@import './components/squareCard';
 @import './pages/home';
 @import './pages/about';
 @import './pages/equipment';

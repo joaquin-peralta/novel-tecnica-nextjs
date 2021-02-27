@@ -19,6 +19,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/no-unescaped-entities': 'off',
     'react/jsx-props-no-spreading': ['error', { custom: 'ignore' }],
+    'import/no-cycle': [0, { ignoreExternal: true }],
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
@@ -27,6 +28,7 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton'],
       },
     ],
+    'arrow-body-style': ['error', 'always'],
     'prettier/prettier': 'error',
   },
   globals: {

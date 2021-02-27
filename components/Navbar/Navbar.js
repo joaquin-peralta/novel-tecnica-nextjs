@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -12,7 +11,9 @@ import SidebarData from './SidebarData';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
-  const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = () => {
+    return setSidebar(!sidebar);
+  };
   return (
     <div>
       <div className="Navbar">
@@ -83,15 +84,17 @@ function Navbar() {
               <AiIcons.AiOutlineClose />
             </button>
           </li>
-          {SidebarData.map((item) => (
-            <li key={item.id} className={item.cName}>
-              <Link href={item.path} onClick={showSidebar}>
-                <a className="text-reset text-decoration-none">
-                  <span>{item.title}</span>
-                </a>
-              </Link>
-            </li>
-          ))}
+          {SidebarData.map((item) => {
+            return (
+              <li key={item.id} className={item.cName}>
+                <Link href={item.path} onClick={showSidebar}>
+                  <a className="text-reset text-decoration-none">
+                    <span>{item.title}</span>
+                  </a>
+                </Link>
+              </li>
+            );
+          })}
         </ul>
       </nav>
     </div>
