@@ -14,8 +14,10 @@ module.exports = {
   plugins: ['react', 'prettier'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'import/extensions': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
+    'react/no-unescaped-entities': 'off',
     'react/jsx-props-no-spreading': ['error', { custom: 'ignore' }],
     'jsx-a11y/anchor-is-valid': [
       'error',

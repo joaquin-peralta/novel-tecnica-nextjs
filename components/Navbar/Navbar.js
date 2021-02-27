@@ -1,0 +1,95 @@
+import { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+
+import * as FaIcons from 'react-icons/fa';
+import * as AiIcons from 'react-icons/ai';
+import SidebarData from './SidebarData';
+
+function Navbar() {
+  const [sidebar, setSidebar] = useState(false);
+  const showSidebar = () => setSidebar(!sidebar);
+  return (
+    <div>
+      <div className="Navbar">
+        <div className="container-fluid">
+          <div className="row justify-content-center align-items-center py-1">
+            <div className="col">
+              <button type="button" className="Navbar__menu-btn">
+                <FaIcons.FaBars onClick={showSidebar} />
+              </button>
+              <Image
+                className="Navbar__desktop-logo"
+                src="/logo.png"
+                width={100}
+                height={70}
+                alt="Novel Técnica logo"
+              />
+            </div>
+            <div className="Navbar__logo-container col text-center">
+              <Image
+                className="Navbar__logo"
+                src="/logo.png"
+                width={100}
+                height={70}
+                alt="Novel Técnica logo"
+              />
+            </div>
+            <div className="col">
+              <div className="Navbar__desktop-menu">
+                <nav>
+                  <ul>
+                    <Link href="/">
+                      <a>
+                        <li className="Navbar__desktop-link">Inicio</li>
+                      </a>
+                    </Link>
+                    <Link href="/about">
+                      <a>
+                        <li className="Navbar__desktop-link">Quiénes somos</li>
+                      </a>
+                    </Link>
+                    <Link href="/equipment">
+                      <a>
+                        <li className="Navbar__desktop-link">Equipos</li>
+                      </a>
+                    </Link>
+                    <Link href="/contact">
+                      <a>
+                        <li className="Navbar__desktop-link">Contacto</li>
+                      </a>
+                    </Link>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav className={sidebar ? 'Navbar__menu active' : 'Navbar__menu'}>
+        <ul className="Navbar__menu-items list-unstyled">
+          <li className="Navbar__toggle">
+            <button
+              type="button"
+              className="Navbar__close-btn"
+              onClick={showSidebar}
+            >
+              <AiIcons.AiOutlineClose />
+            </button>
+          </li>
+          {SidebarData.map((item) => (
+            <li key={item.id} className={item.cName}>
+              <Link href={item.path} onClick={showSidebar}>
+                <a>
+                  <span>{item.title}</span>
+                </a>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  );
+}
+
+export default Navbar;
