@@ -31,20 +31,11 @@
   color: #222;
 }
 
-.Navbar__logo {
-  max-width: 100%;
-  max-height: 4.3rem;
-
+.Navbar__mobile-logo {
   @media only screen and (max-width: 400px) {
     display: none;
   }
 
-  @media only screen and (min-width: 768px) {
-    display: none;
-  }
-}
-
-.Navbar__logo-container {
   @media only screen and (min-width: 768px) {
     display: none;
   }

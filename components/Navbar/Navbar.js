@@ -1,4 +1,8 @@
 import { useState } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -12,30 +16,32 @@ function Navbar() {
   return (
     <div>
       <div className="Navbar">
-        <div className="container-fluid">
-          <div className="row justify-content-center align-items-center py-1">
-            <div className="col">
+        <Container fluid>
+          <Row className="justify-content-center align-items-center">
+            <Col>
               <button type="button" className="Navbar__menu-btn">
                 <FaIcons.FaBars onClick={showSidebar} />
               </button>
-              <Image
-                className="Navbar__desktop-logo"
-                src="/logo.png"
-                width={100}
-                height={70}
-                alt="Novel Técnica logo"
-              />
+              <div className="Navbar__desktop-logo">
+                <Image
+                  src="/logo.png"
+                  width={100}
+                  height={70}
+                  alt="Novel Técnica logo"
+                />
+              </div>
+            </Col>
+            <div className="Navbar__mobile-logo">
+              <Col>
+                <Image
+                  src="/logo.png"
+                  width={100}
+                  height={70}
+                  alt="Novel Técnica logo"
+                />
+              </Col>
             </div>
-            <div className="Navbar__logo-container col text-center">
-              <Image
-                className="Navbar__logo"
-                src="/logo.png"
-                width={100}
-                height={70}
-                alt="Novel Técnica logo"
-              />
-            </div>
-            <div className="col">
+            <Col>
               <div className="Navbar__desktop-menu">
                 <nav>
                   <ul>
@@ -62,9 +68,9 @@ function Navbar() {
                   </ul>
                 </nav>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
       <nav className={sidebar ? 'Navbar__menu active' : 'Navbar__menu'}>
         <ul className="Navbar__menu-items list-unstyled">
@@ -80,7 +86,7 @@ function Navbar() {
           {SidebarData.map((item) => (
             <li key={item.id} className={item.cName}>
               <Link href={item.path} onClick={showSidebar}>
-                <a>
+                <a className="text-reset text-decoration-none">
                   <span>{item.title}</span>
                 </a>
               </Link>
