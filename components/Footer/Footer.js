@@ -15,7 +15,7 @@ function Footer() {
             <Row xs={1} md={2} className="align-items-center">
               <Container>
                 <Row xs={2} className="align-items-center">
-                  <Col xs={8}>
+                  <Col xs={8} lg={6}>
                     <div className="img-fluid">
                       <Image
                         src="/logo2.png"
@@ -25,7 +25,7 @@ function Footer() {
                       />
                     </div>
                   </Col>
-                  <Col xs={4}>
+                  <Col xs={4} lg={6}>
                     <div className="Footer__social text-center">
                       <a
                         className="d-inline-block p-2"

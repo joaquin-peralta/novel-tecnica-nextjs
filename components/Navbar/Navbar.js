@@ -21,14 +21,18 @@ function Navbar() {
               <button type="button" className="Navbar__menu-btn">
                 <FaIcons.FaBars onClick={showSidebar} />
               </button>
-              <div className="Navbar__desktop-logo">
-                <Image
-                  src="/logo.png"
-                  width={100}
-                  height={70}
-                  alt="Novel Técnica logo"
-                />
-              </div>
+              <Link href="/">
+                <a>
+                  <div className="Navbar__desktop-logo">
+                    <Image
+                      src="/logo.png"
+                      width={100}
+                      height={70}
+                      alt="Novel Técnica logo"
+                    />
+                  </div>
+                </a>
+              </Link>
             </Col>
             <div className="Navbar__mobile-logo">
               <Col>
