@@ -11,24 +11,24 @@ function Footer() {
     <footer>
       <IconContext.Provider value={{ size: '2.2rem', color: '#DDD' }}>
         <div className="Footer">
-          <Container>
-            <Row>
-              <Col md>
-                <Row className="align-items-center">
-                  <Col>
-                    <div className="img-fluid my-4">
+          <Container fluid>
+            <Row xs={1} md={2} className="align-items-center">
+              <Container>
+                <Row xs={2} className="align-items-center">
+                  <Col xs={8}>
+                    <div className="img-fluid">
                       <Image
                         src="/logo2.png"
                         alt="Novel Técnica logo"
-                        width={1000}
-                        height={600}
+                        width={1413}
+                        height={972}
                       />
                     </div>
                   </Col>
-                  <Col md>
-                    <div className="Footer__social">
+                  <Col xs={4}>
+                    <div className="Footer__social text-center">
                       <a
-                        className="d-inline-block p-1"
+                        className="d-inline-block p-2"
                         href="https://www.facebook.com/Novel-T%C3%A9cnica-310807452905315"
                         target="_blank"
                         rel="noreferrer"
@@ -36,7 +36,7 @@ function Footer() {
                         <FaIcons.FaFacebook />
                       </a>
                       <a
-                        className="d-inline-block p-1"
+                        className="d-inline-block p-2"
                         href="https://www.instagram.com/novel.tecnica/"
                         target="_blank"
                         rel="noreferrer"
@@ -46,65 +46,75 @@ function Footer() {
                     </div>
                   </Col>
                 </Row>
-              </Col>
-              <Col md>
-                <aside>
-                  <h4 className="Footer__subheader mb-3">Oficina</h4>
-                  <ul className="Footer__list">
-                    <li>
-                      <span className="ml-0 font-weight-bold">Dirección: </span>
-                      <span className="ml-0">
-                        Belgrano 2246 - CP 3080 Esperanza - Santa Fe
-                      </span>
-                    </li>
-                    <li>
-                      <span className="ml-0 font-weight-bold">
-                        Horario de atención:{' '}
-                      </span>
-                      <span className="ml-0">
-                        de Lunes a Viernes de 9 a 17 hs.
-                      </span>
-                    </li>
-                    <li>
-                      <span className="ml-0 font-weight-bold">
-                        Teléfono / Whatsapp:{' '}
-                      </span>
-                      <span className="ml-0">(+54) 3496-548841</span>
-                    </li>
-                    <li>
-                      <span className="ml-0 font-weight-bold">Email: </span>
-                      <span className="ml-0">pablolbonvin@gmail.com</span>
-                    </li>
-                  </ul>
-                </aside>
-              </Col>
-              <Col md>
-                <nav className="Footer__navigation">
-                  <h4 className="Footer__subheader mb-3">Secciones</h4>
-                  <ul className="Footer__navigation-list">
-                    <Link href="/">
-                      <a>
-                        <li>Inicio</li>
-                      </a>
-                    </Link>
-                    <Link href="/about">
-                      <a>
-                        <li>Quiénes somos</li>
-                      </a>
-                    </Link>
-                    <Link href="/equipment">
-                      <a>
-                        <li>Equipos</li>
-                      </a>
-                    </Link>
-                    <Link href="/contact">
-                      <a>
-                        <li>Contacto</li>
-                      </a>
-                    </Link>
-                  </ul>
-                </nav>
-              </Col>
+              </Container>
+              <Container>
+                <Row xs={1} lg={2}>
+                  <Col>
+                    <div className="mb-4">
+                      <aside>
+                        <h4 className="Footer__subheader mb-3">Oficina</h4>
+                        <ul className="Footer__list">
+                          <li>
+                            <span className="ml-0 font-weight-bold">
+                              Dirección:{' '}
+                            </span>
+                            <span className="ml-0">
+                              Belgrano 2246 - CP 3080 Esperanza - Santa Fe
+                            </span>
+                          </li>
+                          <li>
+                            <span className="ml-0 font-weight-bold">
+                              Horario de atención:{' '}
+                            </span>
+                            <span className="ml-0">
+                              de Lunes a Viernes de 9 a 17 hs.
+                            </span>
+                          </li>
+                          <li>
+                            <span className="ml-0 font-weight-bold">
+                              Teléfono / Whatsapp:{' '}
+                            </span>
+                            <span className="ml-0">(+54) 3496-548841</span>
+                          </li>
+                          <li>
+                            <span className="ml-0 font-weight-bold">
+                              Email:{' '}
+                            </span>
+                            <span className="ml-0">pablolbonvin@gmail.com</span>
+                          </li>
+                        </ul>
+                      </aside>
+                    </div>
+                  </Col>
+                  <Col>
+                    <nav className="Footer__navigation">
+                      <h4 className="Footer__subheader mb-3">Secciones</h4>
+                      <ul className="Footer__navigation-list">
+                        <Link href="/">
+                          <a>
+                            <li>Inicio</li>
+                          </a>
+                        </Link>
+                        <Link href="/about">
+                          <a>
+                            <li>Quiénes somos</li>
+                          </a>
+                        </Link>
+                        <Link href="/equipment">
+                          <a>
+                            <li>Equipos</li>
+                          </a>
+                        </Link>
+                        <Link href="/contact">
+                          <a>
+                            <li>Contacto</li>
+                          </a>
+                        </Link>
+                      </ul>
+                    </nav>
+                  </Col>
+                </Row>
+              </Container>
             </Row>
           </Container>
         </div>

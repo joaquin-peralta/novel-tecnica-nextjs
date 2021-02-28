@@ -11,9 +11,7 @@ import SidebarData from './SidebarData';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
-  const showSidebar = () => {
-    return setSidebar(!sidebar);
-  };
+  const showSidebar = () => setSidebar(!sidebar);
   return (
     <div>
       <div className="Navbar">
@@ -84,17 +82,15 @@ function Navbar() {
               <AiIcons.AiOutlineClose />
             </button>
           </li>
-          {SidebarData.map((item) => {
-            return (
-              <li key={item.id} className={item.cName}>
-                <Link href={item.path} onClick={showSidebar}>
-                  <a className="text-reset text-decoration-none">
-                    <span>{item.title}</span>
-                  </a>
-                </Link>
-              </li>
-            );
-          })}
+          {SidebarData.map((item) => (
+            <li key={item.id} className={item.cName}>
+              <Link href={item.path} onClick={showSidebar}>
+                <a className="text-reset text-decoration-none">
+                  <span>{item.title}</span>
+                </a>
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>

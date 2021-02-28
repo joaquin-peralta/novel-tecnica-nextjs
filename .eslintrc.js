@@ -28,7 +28,7 @@ module.exports = {
         aspects: ['invalidHref', 'preferButton'],
       },
     ],
-    'arrow-body-style': ['error', 'always'],
+    'arrow-body-style': ['error', 'as-needed'],
     'prettier/prettier': 'error',
   },
   globals: {
