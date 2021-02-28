@@ -2,14 +2,14 @@ import AwesomeSlider from 'react-awesome-slider';
 
 const slider = {
   sliderSerieA: (
-    <AwesomeSlider className="aws-btn--lightblue">
+    <AwesomeSlider>
       <div data-src="/A1_003.jpg" />
       <div data-src="/equipment-model-inside.jpeg" />
     </AwesomeSlider>
   ),
 
   sliderSerieB: (
-    <AwesomeSlider className="aws-btn--lightgreen">
+    <AwesomeSlider>
       <div data-src="/A1_003.jpg" />
       <div data-src="/equipment-model-inside.jpeg" />
     </AwesomeSlider>
