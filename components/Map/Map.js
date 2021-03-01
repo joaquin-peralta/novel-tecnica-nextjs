@@ -1,9 +1,13 @@
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
-import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
+import L from 'leaflet';
 
 const Map = () => {
-  const position = [-31.44769311670469, -60.928885331144265];
+  const position = [-31.447930521044952, -60.92875309668356];
+  const placeholder = L.icon({
+    iconUrl: '/marker-icon.png',
+    iconSize: [27, 40],
+    iconAnchor: [27, 40],
+  });
 
   return (
     <MapContainer center={position} zoom={16} scrollWheelZoom={false}>
@@ -11,7 +15,7 @@ const Map = () => {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      <Marker position={position} draggable>
+      <Marker position={position} icon={placeholder}>
         <Popup>
           <strong>Novel Técnica</strong>
           <br />

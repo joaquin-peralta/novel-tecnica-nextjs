@@ -11,7 +11,10 @@ import SidebarData from './SidebarData';
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
-  const showSidebar = () => setSidebar(!sidebar);
+  const showSidebar = (e) => {
+    e.preventDefault();
+    setSidebar(!sidebar);
+  };
   return (
     <div>
       <div className="Navbar">
@@ -36,12 +39,16 @@ function Navbar() {
             </Col>
             <div className="Navbar__mobile-logo">
               <Col>
-                <Image
-                  src="/logo.png"
-                  width={100}
-                  height={70}
-                  alt="Novel Técnica logo"
-                />
+                <Link href="/">
+                  <a>
+                    <Image
+                      src="/logo.png"
+                      width={100}
+                      height={70}
+                      alt="Novel Técnica logo"
+                    />
+                  </a>
+                </Link>
               </Col>
             </div>
             <Col>
@@ -87,8 +94,14 @@ function Navbar() {
             </button>
           </li>
           {SidebarData.map((item) => (
-            <li key={item.id} className={item.cName}>
-              <Link href={item.path} onClick={showSidebar}>
+            // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
+            <li
+              key={item.id}
+              className={item.cName}
+              onClick={showSidebar}
+              onKeyDown={showSidebar}
+            >
+              <Link href={item.path}>
                 <a className="text-reset text-decoration-none">
                   <span>{item.title}</span>
                 </a>

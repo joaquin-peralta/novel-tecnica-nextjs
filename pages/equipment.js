@@ -8,7 +8,8 @@ import * as FaIcons from 'react-icons/fa';
 import FeatureCard from '@components/Card/FeatureCard';
 import CardInfo from '@components/Card/CardInfo';
 import Card from '@components/Card/Card';
-import slider from '@components/Carousel/Carousel';
+import Carousel from 'react-bootstrap/Carousel';
+import Image from 'next/image';
 
 const Equipment = () => (
   <div className="Equipment">
@@ -59,7 +60,58 @@ const Equipment = () => (
             </FeatureCard>
           </Col>
           <Col md>
-            <div className="aws-btn mt-3 mb-5">{slider.sliderSerieA}</div>
+            <div className="d-block w-100">
+              <Carousel>
+                <Carousel.Item>
+                  <Image
+                    src="/A1_001.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A1_002.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A1_003.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A2_001.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A2_002.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A2_003.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+              </Carousel>
+            </div>
             <Link href="/contact">
               <a className="btn btn-primary w-100 my-3">
                 <FaIcons.FaWhatsapp
@@ -118,7 +170,58 @@ const Equipment = () => (
             </FeatureCard>
           </Col>
           <Col md>
-            <div className="aws-btn mt-3 mb-5">{slider.sliderSerieB}</div>
+            <div className="d-block w-100">
+              <Carousel>
+                <Carousel.Item>
+                  <Image
+                    src="/A1_001.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A1_002.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A1_003.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A2_001.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A2_002.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="/A2_003.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                  />
+                </Carousel.Item>
+              </Carousel>
+            </div>
             <Link href="/contact">
               <a className="btn btn-secondary w-100 my-3">
                 <FaIcons.FaWhatsapp

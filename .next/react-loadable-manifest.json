@@ -75,59 +75,7 @@
       "file": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/leaflet-defaulticon-compatibility/dist/images/marker-icon-2x.png",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/leaflet-defaulticon-compatibility/dist/images/marker-icon.png",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/leaflet-defaulticon-compatibility/dist/images/marker-shadow.png",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/leaflet/dist/images/layers-2x.png",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/leaflet/dist/images/layers.png",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/leaflet/dist/images/marker-icon.png",
-      "file": "static/chunks/1.js"
-    },
-    {
       "id": "./node_modules/leaflet/dist/leaflet-src.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/leaflet/dist/leaflet.css",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/next/dist/build/webpack/loaders/next-style-loader/runtime/injectStylesIntoStyleTag.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/next/dist/compiled/css-loader/api.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/next/dist/compiled/css-loader/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/cjs.js?!./node_modules/leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/next/dist/compiled/css-loader/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/cjs.js?!./node_modules/leaflet/dist/leaflet.css",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/next/dist/compiled/css-loader/getUrl.js",
       "file": "static/chunks/1.js"
     },
     {

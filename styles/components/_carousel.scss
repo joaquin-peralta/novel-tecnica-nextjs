@@ -1,33 +1,7 @@
-.aws-btn {
-  &--lightblue {
-    --slider-height-percentage: 60%;
-    --slider-transition-duration: 700ms;
-    --organic-arrow-thickness: 4px;
-    --organic-arrow-border-radius: 0px;
-    --organic-arrow-height: 40px;
-    --organic-arrow-color: #c7c7c7;
-    --control-button-width: 10%;
-    --control-button-height: 25%;
-    --control-button-background: transparent;
-    --control-bullet-color: rgba(35, 191, 196, 0.5);
-    --control-bullet-active-color: rgb(35, 191, 196);
-    --loader-bar-color: rgb(35, 191, 196);
-    --loader-bar-height: 6px;
-  }
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
 
-  &--lightgreen {
-    --slider-height-percentage: 60%;
-    --slider-transition-duration: 700ms;
-    --organic-arrow-thickness: 4px;
-    --organic-arrow-border-radius: 0px;
-    --organic-arrow-height: 40px;
-    --organic-arrow-color: #c7c7c7;
-    --control-button-width: 10%;
-    --control-button-height: 25%;
-    --control-button-background: transparent;
-    --control-bullet-color: rgba(166, 215, 147, 0.5);
-    --control-bullet-active-color: rgb(166, 215, 147);
-    --loader-bar-color: rgb(166, 215, 147);
-    --loader-bar-height: 6px;
-  }
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
