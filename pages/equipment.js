@@ -82,46 +82,6 @@ const Equipment = () => (
                     loading="eager"
                   />
                 </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A1_003.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A2_001.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A2_002.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A2_003.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
               </Carousel>
             </div>
             <Link href="/contact">
@@ -190,8 +150,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
-                    quality={40}
-                    loading="eager"
+                    quality="30"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -200,48 +159,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A1_003.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A2_001.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A2_002.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
-                  />
-                </Carousel.Item>
-                <Carousel.Item>
-                  <Image
-                    src="/A2_003.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
-                    quality={40}
-                    loading="eager"
+                    quality="30"
                   />
                 </Carousel.Item>
               </Carousel>
