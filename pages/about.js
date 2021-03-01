@@ -30,7 +30,7 @@ const About = () => (
               width={5000}
               height={3868}
               quality={30}
-              loading="eager"
+              loading="priority"
             />
           </div>
         </Col>

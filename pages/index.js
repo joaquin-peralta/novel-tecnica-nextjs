@@ -18,7 +18,7 @@ const Home = () => (
         <h1>Novel Técnica</h1>
         <p className="mb-5">Innovación y desarrollo en ozono</p>
         <Link href="/equipment">
-          <a className="btn btn-custom text-uppercase font-weight-bold">
+          <a className="btn-custom text-uppercase font-weight-bold">
             Nuestros equipos
           </a>
         </Link>
@@ -158,7 +158,7 @@ const Home = () => (
         <IconContext.Provider value={{ size: '2.4rem' }}>
           <div className="text-center">
             <Row md={2}>
-              <div className="mb-3">
+              <div className="mb-3 w-100">
                 <Col>
                   <Link href="/equipment">
                     <a className="text-reset text-decoration-none">
@@ -175,7 +175,7 @@ const Home = () => (
                   </Link>
                 </Col>
               </div>
-              <div className="mb-3">
+              <div className="mb-3 w-100">
                 <Col>
                   <Link href="/equipment">
                     <a className="text-reset text-decoration-none">
@@ -194,7 +194,7 @@ const Home = () => (
               </div>
             </Row>
             <Row className="justify-content-center">
-              <div className="mb-3">
+              <div className="mb-3 w-100">
                 <Col>
                   <Link href="/equipment">
                     <a
@@ -223,9 +223,9 @@ const Home = () => (
       <div className="Home-contact__hero">
         <div className="Home-contact__hero-content">
           <p className="font-italic">Para más información y asesoramiento</p>
-          <hr className="mb-4" />
+          <hr className="mb-5" />
           <Link href="/contact">
-            <a className="btn btn-custom text-uppercase font-weight-bold">
+            <a className="btn-custom text-uppercase font-weight-bold">
               Contactanos
             </a>
           </Link>

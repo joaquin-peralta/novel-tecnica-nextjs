@@ -69,7 +69,7 @@ const Equipment = () => (
                     width={4000}
                     height={3000}
                     quality={40}
-                    loading="eager"
+                    loading="priority"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -79,7 +79,7 @@ const Equipment = () => (
                     width={4000}
                     height={3000}
                     quality={40}
-                    loading="eager"
+                    loading="priority"
                   />
                 </Carousel.Item>
               </Carousel>
@@ -151,6 +151,7 @@ const Equipment = () => (
                     width={4000}
                     height={3000}
                     quality="30"
+                    loading="priority"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -160,6 +161,7 @@ const Equipment = () => (
                     width={4000}
                     height={3000}
                     quality="30"
+                    loading="priority"
                   />
                 </Carousel.Item>
               </Carousel>

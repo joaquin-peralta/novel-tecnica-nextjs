@@ -43,11 +43,18 @@
 }
 
 // CUSTOM BUTTONS
-.btn.btn-custom {
+.btn-custom {
   color: #ddd;
+  padding: 0.6rem 0.5rem;
+  border-radius: 0.4rem;
   border: 3px solid #ddd;
 
+  &:link {
+    text-decoration: none;
+  }
+
   &:hover {
+    color: #444;
     background-color: #ddd;
   }
 }
