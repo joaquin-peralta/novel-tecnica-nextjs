@@ -68,6 +68,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -76,6 +77,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -84,6 +86,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -92,6 +95,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -100,6 +104,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -108,6 +113,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
               </Carousel>
@@ -178,6 +184,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -186,6 +193,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -194,6 +202,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -202,6 +211,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -210,6 +220,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
                 <Carousel.Item>
@@ -218,6 +229,7 @@ const Equipment = () => (
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
+                    priority
                   />
                 </Carousel.Item>
               </Carousel>

@@ -6,7 +6,7 @@ const Loader = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     const handleStart = (url) => url !== router.asPath && setLoading(true);
-    const handleComplete = (url) => setLoading(false);
+    const handleComplete = () => setLoading(false);
 
     router.events.on('routeChangeStart', handleStart);
     router.events.on('routeChangeComplete', handleComplete);
@@ -19,12 +19,14 @@ const Loader = () => {
   });
   return (
     loading && (
-      <div className="Loader">
-        <div className="lds-ellipsis">
-          <div />
-          <div />
-          <div />
-          <div />
+      <div className="Loader-container">
+        <div className="Loader">
+          <div className="lds-ellipsis">
+            <div />
+            <div />
+            <div />
+            <div />
+          </div>
         </div>
       </div>
     )
