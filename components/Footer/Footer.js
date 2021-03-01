@@ -91,22 +91,22 @@ function Footer() {
                       <h4 className="Footer__subheader mb-3">Secciones</h4>
                       <ul className="Footer__navigation-list">
                         <Link href="/">
-                          <a>
+                          <a className="Footer__navigation-link">
                             <li>Inicio</li>
                           </a>
                         </Link>
                         <Link href="/about">
-                          <a>
+                          <a className="Footer__navigation-link">
                             <li>Quiénes somos</li>
                           </a>
                         </Link>
                         <Link href="/equipment">
-                          <a>
+                          <a className="Footer__navigation-link">
                             <li>Equipos</li>
                           </a>
                         </Link>
                         <Link href="/contact">
-                          <a>
+                          <a className="Footer__navigation-link">
                             <li>Contacto</li>
                           </a>
                         </Link>

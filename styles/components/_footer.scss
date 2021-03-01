@@ -48,17 +48,19 @@
   font-size: 0.9rem;
   letter-spacing: 1.5px;
 
-  a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-
-    &:hover {
-      color: #444;
-    }
+  a:link {
+    text-decoration: none !important;
   }
 
   li {
     margin-bottom: 1rem;
+  }
+}
+
+.Footer__navigation-link {
+  color: #fff;
+
+  &:hover {
+    color: #ccc;
   }
 }
