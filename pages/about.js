@@ -29,6 +29,8 @@ const About = () => (
               alt="Molécula"
               width={5000}
               height={3868}
+              quality={30}
+              loading="eager"
             />
           </div>
         </Col>

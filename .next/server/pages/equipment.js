@@ -3362,7 +3362,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3370,7 +3371,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3378,7 +3380,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3386,7 +3389,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3394,7 +3398,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3402,7 +3407,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               })]
             })
@@ -3481,7 +3487,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3489,7 +3496,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3497,7 +3505,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3505,7 +3514,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3513,7 +3523,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10___default.a.Item, {
                 children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -3521,7 +3532,8 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   alt: "Generador de ozono Serie A",
                   width: 4000,
                   height: 3000,
-                  priority: true
+                  quality: 40,
+                  loading: "eager"
                 })
               })]
             })

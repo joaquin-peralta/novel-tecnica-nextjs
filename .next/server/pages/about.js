@@ -260,7 +260,9 @@ const About = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODU
             src: "/molecule.png",
             alt: "Mol\xE9cula",
             width: 5000,
-            height: 3868
+            height: 3868,
+            quality: 30,
+            loading: "eager"
           })
         })
       })]
