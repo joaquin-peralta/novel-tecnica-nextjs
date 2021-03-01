@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\n\nfunction SquareCard(props) {\n  const {\n    color,\n    children\n  } = props;\n  return /*#__PURE__*/_jsx(\"div\", {\n    className: `SquareCard--${color}`,\n    children: children\n  });\n}\n\nexport default SquareCard;","map":null,"metadata":{},"sourceType":"module"}
