@@ -62,7 +62,19 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
-                    alt="Generador de ozono Serie A"
+                    alt="Generador de ozono Serie A1"
+                    width={4000}
+                    height={3000}
+                    quality="30"
+                  />
+                  <Carousel.Caption>
+                    <p style={{ color: '#222' }}>Serie A1</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg"
+                    alt="Generador de ozono Serie A1"
                     width={4000}
                     height={3000}
                     quality="30"
@@ -70,8 +82,29 @@ const Equipment = () => (
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
-                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg"
-                    alt="Generador de ozono Serie A"
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719342/novel-tecnica/A1_003_cwpsae.jpg"
+                    alt="Generador de ozono Serie A1"
+                    width={4000}
+                    height={3000}
+                    quality="30"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_001_v503vy.jpg"
+                    alt="Generador de ozono Serie A2"
+                    width={4000}
+                    height={3000}
+                    quality="30"
+                  />
+                  <Carousel.Caption>
+                    <p style={{ color: '#222' }}>Serie A2</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_002_kcjj9e.jpg"
+                    alt="Generador de ozono Serie A2"
                     width={4000}
                     height={3000}
                     quality="30"
@@ -80,7 +113,7 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_003_jrx34r.jpg"
-                    alt="Generador de ozono Serie A"
+                    alt="Generador de ozono Serie A2"
                     width={4000}
                     height={3000}
                     quality="30"
@@ -150,28 +183,43 @@ const Equipment = () => (
               <Carousel>
                 <Carousel.Item>
                   <Image
-                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719046/novel-tecnica/HF2_001_jmtiqp.jpg"
+                    alt="Generador de ozono industrial Serie HF2"
+                    width={1500}
+                    height={1526}
+                    quality="30"
+                  />
+                  <Carousel.Caption>
+                    <p style={{ color: '#222' }}>Serie HF2</p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719047/novel-tecnica/HF2_002_hyfhnr.jpg"
+                    alt="Interior del generador de ozono Serie HF2"
+                    width={1800}
+                    height={1510}
                     quality="30"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
-                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719048/novel-tecnica/HF4_001_jlmqu3.jpg"
+                    alt="Generador de ozono Serie HF4"
+                    width={1500}
+                    height={1597}
                     quality="30"
                   />
+                  <Carousel.Caption>
+                    <p style={{ color: '#222' }}>Serie HF4</p>
+                  </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
-                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_003_jrx34r.jpg"
-                    alt="Generador de ozono Serie A"
-                    width={4000}
-                    height={3000}
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719048/novel-tecnica/HF4_002_ulj3ih.jpg"
+                    alt="Generador de ozono Serie HF4"
+                    width={1500}
+                    height={2101}
                     quality="30"
                   />
                 </Carousel.Item>
@@ -212,13 +260,26 @@ const Equipment = () => (
           </Col>
           <Col md>
             <div className="d-block w-100">
-              <Image
-                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
-                alt="Generador de ozono Serie A"
-                width={4000}
-                height={3000}
-                quality="30"
-              />
+              <Carousel>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614720781/novel-tecnica/OC2_001_sgu254.jpg"
+                    alt="Concentrador de oxígeno por PSA"
+                    width={1013}
+                    height={1597}
+                    quality="30"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614720782/novel-tecnica/OC2_002_ybodxi.jpg"
+                    alt="Concentrador de oxígeno por PSA"
+                    width={898}
+                    height={1597}
+                    quality="30"
+                  />
+                </Carousel.Item>
+              </Carousel>
             </div>
             <Link href="/contact">
               <a className="btn btn-orange w-100 my-3">
@@ -263,10 +324,10 @@ const Equipment = () => (
           <Col md>
             <div className="d-block w-100">
               <Image
-                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
-                alt="Generador de ozono Serie A"
-                width={4000}
-                height={3000}
+                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719048/novel-tecnica/Timer_canzvl.jpg"
+                alt="Temporizador programable"
+                width={912}
+                height={912}
                 quality="30"
               />
             </div>
@@ -311,11 +372,10 @@ const Equipment = () => (
           <Col md>
             <div className="d-block w-100">
               <Image
-                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
-                alt="Generador de ozono Serie A"
-                width={4000}
-                height={3000}
-                quality="30"
+                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614720781/novel-tecnica/columna-disolucion-ozono_wfovhw.jpg"
+                alt="Sistemas de contacto gas-líquido para disolución de ozono en agua"
+                width={710}
+                height={1597}
               />
             </div>
             <Link href="/contact">

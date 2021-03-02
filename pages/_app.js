@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { motion } from 'framer-motion';
 import '../styles/main.scss';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -11,6 +12,9 @@ import Layout from '@components/Layout/Layout';
 function MyApp({ Component, pageProps, router }) {
   return (
     <>
+      <Head>
+        <title>Generadores de Ozono | Novel Técnica</title>
+      </Head>
       <Loader />
       <motion.div
         key={router.route}
