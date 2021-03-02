@@ -64,22 +64,29 @@ const Equipment = () => (
               <Carousel>
                 <Carousel.Item>
                   <Image
-                    src="/A1_001.jpg"
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
-                    quality={40}
-                    loading="priority"
+                    quality="30"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
-                    src="/A1_002.jpg"
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg"
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
-                    quality={40}
-                    loading="priority"
+                    quality="30"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_003_jrx34r.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                    quality="30"
                   />
                 </Carousel.Item>
               </Carousel>
@@ -146,22 +153,29 @@ const Equipment = () => (
               <Carousel>
                 <Carousel.Item>
                   <Image
-                    src="/A1_001.jpg"
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
                     quality="30"
-                    loading="priority"
                   />
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
-                    src="/A1_002.jpg"
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg"
                     alt="Generador de ozono Serie A"
                     width={4000}
                     height={3000}
                     quality="30"
-                    loading="priority"
+                  />
+                </Carousel.Item>
+                <Carousel.Item>
+                  <Image
+                    src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_003_jrx34r.jpg"
+                    alt="Generador de ozono Serie A"
+                    width={4000}
+                    height={3000}
+                    quality="30"
                   />
                 </Carousel.Item>
               </Carousel>

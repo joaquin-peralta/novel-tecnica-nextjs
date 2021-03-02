@@ -25,12 +25,11 @@ const About = () => (
         <Col sm>
           <div className="img-fluid">
             <Image
-              src="/molecule.png"
+              src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688646/novel-tecnica/molecule_ewu6q1.png"
               alt="Molécula"
               width={5000}
               height={3868}
               quality={30}
-              loading="priority"
             />
           </div>
         </Col>
