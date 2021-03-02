@@ -4,19 +4,31 @@
 
   &--blue {
     @extend .FeatureCard;
-    background-color: rgba(35, 191, 196, 0.1);
+    background-color: $lightblue-color-transparent-dark;
     border-left: 3px solid $lightblue-color;
   }
 
   &--green {
     @extend .FeatureCard;
-    background-color: rgba(166, 215, 147, 0.1);
+    background-color: $lightgreen-color-transparent-dark;
     border-left: 3px solid $lightgreen-color;
   }
 
   &--gray {
     @extend .FeatureCard;
-    background-color: rgba(150, 152, 154, 0.1);
+    background-color: $gray-color-transparent-dark;
     border-left: 3px solid $gray-color;
+  }
+
+  &--orange {
+    @extend .FeatureCard;
+    background-color: $orange-color-transparent-dark;
+    border-left: 3px solid $orange-color;
+  }
+
+  &--yellow {
+    @extend .FeatureCard;
+    background-color: $yellow-color-transparent-dark;
+    border-left: 3px solid $yellow-color;
   }
 }

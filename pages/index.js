@@ -193,7 +193,7 @@ const Home = () => (
                 </Col>
               </div>
             </Row>
-            <Row className="justify-content-center">
+            <Row md={2}>
               <div className="mb-3 w-100">
                 <Col>
                   <Link href="/equipment">
@@ -201,14 +201,32 @@ const Home = () => (
                       to="/equipment"
                       className="text-reset text-decoration-none"
                     >
-                      <SquareCard color="red">
-                        <GiIcons.GiGears
+                      <SquareCard color="orange">
+                        <GiIcons.GiMolecule
                           style={{ color: '#FFa500' }}
                           className="mb-2"
                         />
                         <h3 className="heading-h3">
-                          Componentes complementarios para las instalaciones
+                          Concentrador de oxígeno por PSA
                         </h3>
+                      </SquareCard>
+                    </a>
+                  </Link>
+                </Col>
+              </div>
+              <div className="mb-3 w-100">
+                <Col>
+                  <Link href="/equipment">
+                    <a
+                      to="/equipment"
+                      className="text-reset text-decoration-none"
+                    >
+                      <SquareCard color="yellow">
+                        <GiIcons.GiGears
+                          style={{ color: '#f1c13b' }}
+                          className="mb-2"
+                        />
+                        <h3 className="heading-h3">Equipos auxiliares</h3>
                       </SquareCard>
                     </a>
                   </Link>

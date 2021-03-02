@@ -4,15 +4,19 @@ hr {
 
 .hr {
   &-lightblue {
-    border-top: 1px solid #23bfc4;
+    border-top: 1px solid $lightblue-color;
   }
 
   &-lightgreen {
-    border-top: 1px solid #a6d793;
+    border-top: 1px solid $lightgreen-color;
   }
 
   &-orange {
-    border-top: 1px solid #ffa500;
+    border-top: 1px solid $orange-color;
+  }
+
+  &-yellow {
+    border-top: 1px solid $yellow-color;
   }
 }
 
@@ -33,19 +37,25 @@ hr {
   &--blue-border {
     @extend .heading-h3;
     padding-left: 0.5rem;
-    border-left: 3px solid #23bfc4;
+    border-left: 3px solid $lightblue-color;
   }
 
   &--green-border {
     @extend .heading-h3;
     padding-left: 0.5rem;
-    border-left: 3px solid #a6d793;
+    border-left: 3px solid $lightgreen-color;
   }
 
   &--orange-border {
     @extend .heading-h3;
     padding-left: 0.5rem;
-    border-left: 3px solid #ffa500;
+    border-left: 3px solid $orange-color;
+  }
+
+  &--yellow-border {
+    @extend .heading-h3;
+    padding-left: 0.5rem;
+    border-left: 3px solid $yellow-color;
   }
 }
 

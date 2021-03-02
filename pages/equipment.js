@@ -3,11 +3,8 @@ import Link from 'next/link';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { IconContext } from 'react-icons/lib';
 import * as FaIcons from 'react-icons/fa';
 import FeatureCard from '@components/Card/FeatureCard';
-import CardInfo from '@components/Card/CardInfo';
-import Card from '@components/Card/Card';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'next/image';
 
@@ -192,68 +189,147 @@ const Equipment = () => (
           </Col>
         </Row>
       </Container>
-      <IconContext.Provider value={{ size: '25px' }}>
-        <Container fluid>
-          <h2 className="heading-h2">
-            Componentes complementarios para las instalaciones
-          </h2>
-          <hr className="hr-orange mt-2 mb-5" />
-        </Container>
-        <Container>
-          <Row>
-            <Col lg className="mb-3">
-              <Card>
-                <h3 className="heading-h3--orange-border mb-2">
-                  {CardInfo.complementaryComps.one.icon}
-                  {CardInfo.complementaryComps.one.title}
-                </h3>
-                <p>{CardInfo.complementaryComps.one.description}</p>
-                <ul>
-                  <li>Programación simple.</li>
-                  <li>Permite el control de varios equipos a la vez.</li>
-                  <li>
-                    Sistema de copiado de días para simplificar la programación.
-                  </li>
-                  <li>Alta precisión en el tiempo de control.</li>
-                  <li>Control lineal de la generación de ozono.</li>
-                </ul>
-              </Card>
-            </Col>
-            <Col lg className="mb-3">
-              <Card>
-                <h3 className="heading-h3--orange-border mb-2">
-                  {CardInfo.complementaryComps.two.icon}
-                  {CardInfo.complementaryComps.two.title}
-                </h3>
-                <p>{CardInfo.complementaryComps.two.description}</p>
-                <ul>
-                  <li>Simple de operar.</li>
-                  <li>Controles intuitivos.</li>
-                  <li>Altamente confiables.</li>
-                </ul>
-              </Card>
-            </Col>
-            <Col lg className="mb-3">
-              <Card>
-                <h3 className="heading-h3--orange-border mb-2">
-                  {CardInfo.complementaryComps.three.icon}
-                  {CardInfo.complementaryComps.three.title}
-                </h3>
-                <p>{CardInfo.complementaryComps.three.description}</p>
-                <ul>
-                  <li>Inyector venturi con válvula de retención.</li>
-                  <li>
-                    Desgasificador superior con válvula de aire para eliminar el
-                    gas residual que no se disuelve en el agua.
-                  </li>
-                  <li>Bomba centrífuga en acero inoxidable.</li>
-                  <li>Dimensionamiento y diseño acordes a cada proyecto.</li>
-                </ul>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </IconContext.Provider>
+      <h2 className="heading-h2">Concentrador de oxígeno por PSA</h2>
+      <hr className="hr-orange mt-2 mb-5" />
+      <Container className="mb-5">
+        <Row className="align-items-start">
+          <Col lg>
+            <p>
+              Diseñado para alimentar los generadores de ozono en aquellas
+              aplicaciones en las que se requiera el uso de oxígeno. Con
+              tecnología de absorción por presión de aire, permiten separar el
+              oxígeno del aire para usarlo en la alimentación del generador de
+              ozono u otras aplicaciones que puedan requerir el uso de oxígeno.
+            </p>
+            <FeatureCard color="orange">
+              <h4 className="heading-h4 mb-2">Características:</h4>
+              <ul>
+                <li>Simple de operar.</li>
+                <li>Controles intuitivos.</li>
+                <li>Altamente confiables.</li>
+              </ul>
+            </FeatureCard>
+          </Col>
+          <Col md>
+            <div className="d-block w-100">
+              <Image
+                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
+                alt="Generador de ozono Serie A"
+                width={4000}
+                height={3000}
+                quality="30"
+              />
+            </div>
+            <Link href="/contact">
+              <a className="btn btn-orange w-100 my-3">
+                <FaIcons.FaWhatsapp
+                  className="mr-1"
+                  style={{ fontSize: '1.4rem' }}
+                />
+                Comprar
+              </a>
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+      <h2 className="heading-h2">Equipos auxiliares</h2>
+      <hr className="hr-yellow mt-2 mb-5" />
+      <Container className="mb-5">
+        <Row className="align-items-start">
+          <Col lg>
+            <h3 className="heading-h3--yellow-border my-2">
+              Temporizador programable
+            </h3>
+            <p>
+              Permite programar para cada día de la semana dos franjas horarias
+              de trabajo con sus correspondientes porcentajes de generación de
+              ozono. De este modo se puede automatizar el control del generador
+              de ozono diferenciando las condiciones para diferentes días. Ideal
+              para control de cámaras y desinfección de ambientes.
+            </p>
+            <FeatureCard color="yellow">
+              <h4 className="heading-h4 mb-2">Características:</h4>
+              <ul>
+                <li>Programación simple.</li>
+                <li>Permite el control de varios equipos a la vez.</li>
+                <li>
+                  Sistema de copiado de días para simplificar la programación.
+                </li>
+                <li>Alta precisión en el tiempo de control.</li>
+                <li>Control lineal de la generación de ozono.</li>
+              </ul>
+            </FeatureCard>
+          </Col>
+          <Col md>
+            <div className="d-block w-100">
+              <Image
+                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
+                alt="Generador de ozono Serie A"
+                width={4000}
+                height={3000}
+                quality="30"
+              />
+            </div>
+            <Link href="/contact">
+              <a className="btn btn-yellow w-100 my-3">
+                <FaIcons.FaWhatsapp
+                  className="mr-1"
+                  style={{ fontSize: '1.4rem' }}
+                />
+                Comprar
+              </a>
+            </Link>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="mb-5">
+        <Row className="align-items-start">
+          <Col lg>
+            <h3 className="heading-h3--yellow-border my-2">
+              Sistemas de contacto gas-líquido para disolución de ozono en agua
+            </h3>
+            <p>
+              Diseñado para aquellas aplicaciones que requieran disolver el
+              ozono en agua en altas concentraciones. Construido en acero
+              inoxidable y PVC, se logra durabilidad y confiablidad. Incluye
+              inyector venturi en kynar, especialmente diseñado para disolución
+              de ozono en agua.
+            </p>
+            <FeatureCard color="yellow">
+              <h4 className="heading-h4 mb-2">Características:</h4>
+              <ul>
+                <li>Inyector venturi con válvula de retención.</li>
+                <li>
+                  Desgasificador superior con válvula de aire para eliminar el
+                  gas residual que no se disuelve en el agua.
+                </li>
+                <li>Bomba centrífuga en acero inoxidable.</li>
+                <li>Dimensionamiento y diseño acordes a cada proyecto.</li>
+              </ul>
+            </FeatureCard>
+          </Col>
+          <Col md>
+            <div className="d-block w-100">
+              <Image
+                src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
+                alt="Generador de ozono Serie A"
+                width={4000}
+                height={3000}
+                quality="30"
+              />
+            </div>
+            <Link href="/contact">
+              <a className="btn btn-yellow w-100 my-3">
+                <FaIcons.FaWhatsapp
+                  className="mr-1"
+                  style={{ fontSize: '1.4rem' }}
+                />
+                Comprar
+              </a>
+            </Link>
+          </Col>
+        </Row>
+      </Container>
     </Container>
   </div>
 );

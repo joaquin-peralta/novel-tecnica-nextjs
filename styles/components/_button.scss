@@ -58,3 +58,47 @@
     background-color: #ddd;
   }
 }
+
+.btn.btn-orange {
+  color: #fff;
+  background-color: $orange-color;
+  border-color: $orange-color;
+}
+
+.btn.btn-orange:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background-color: $orange-color;
+  border-color: $orange-color;
+}
+
+.btn.btn-orange:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: $orange-color;
+  border-color: $orange-color;
+}
+
+.btn.btn-orange:not(:disabled):not(.disabled):focus {
+  box-shadow: 0 0 0 0.2rem $orange-color-transparent;
+}
+
+.btn.btn-yellow {
+  color: #fff;
+  background-color: $yellow-color;
+  border-color: $yellow-color;
+}
+
+.btn.btn-yellow:not(:disabled):not(.disabled):hover {
+  color: #fff;
+  background-color: $yellow-color;
+  border-color: $yellow-color;
+}
+
+.btn.btn-yellow:not(:disabled):not(.disabled):active {
+  color: #fff;
+  background-color: $yellow-color;
+  border-color: $yellow-color;
+}
+
+.btn.btn-yellow:not(:disabled):not(.disabled):focus {
+  box-shadow: 0 0 0 0.2rem $yellow-color-transparent;
+}
