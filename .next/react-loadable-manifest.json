@@ -1,8 +1,64 @@
 {
-  "./dev/noop": [
+  "@components/Map/Map": [
     {
-      "id": "./node_modules/next/dist/client/dev/noop.js",
-      "file": "static/chunks/0.js"
+      "id": "+wdc",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "0x2o",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "16Al",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "17x9",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "8L3h",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "QCnb",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "WbBG",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "f/k9",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "i8i4",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "nKUr",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "q1tI",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "viRO",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "yl30",
+      "file": "static/chunks/framework.0c27f17e25b7ceff9ee6.js"
+    },
+    {
+      "id": "4R65",
+      "file": "static/chunks/0b7b90cd.945eea87f0b92f018c6a.js"
+    },
+    {
+      "id": "j1/2",
+      "file": "static/chunks/21.98f57c5df6d5817a643d.js"
     }
   ]
 }

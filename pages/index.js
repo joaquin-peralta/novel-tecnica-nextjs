@@ -160,7 +160,7 @@ const Home = () => (
             <Row md={2}>
               <div className="mb-3 w-100">
                 <Col>
-                  <Link href="/equipment">
+                  <Link href="/equipment#serieA" passHref>
                     <a className="text-reset text-decoration-none">
                       <SquareCard color="blue">
                         <RiIcons.RiHome7Line
@@ -177,7 +177,7 @@ const Home = () => (
               </div>
               <div className="mb-3 w-100">
                 <Col>
-                  <Link href="/equipment">
+                  <Link href="/equipment#serieHF" passHref>
                     <a className="text-reset text-decoration-none">
                       <SquareCard color="green">
                         <GiIcons.GiFactory
@@ -196,7 +196,7 @@ const Home = () => (
             <Row md={2}>
               <div className="mb-3 w-100">
                 <Col>
-                  <Link href="/equipment">
+                  <Link href="/equipment#psa" passHref>
                     <a
                       to="/equipment"
                       className="text-reset text-decoration-none"
@@ -216,7 +216,7 @@ const Home = () => (
               </div>
               <div className="mb-3 w-100">
                 <Col>
-                  <Link href="/equipment">
+                  <Link href="/equipment#auxiliares" passHref>
                     <a
                       to="/equipment"
                       className="text-reset text-decoration-none"
