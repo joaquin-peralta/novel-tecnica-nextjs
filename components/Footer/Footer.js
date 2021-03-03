@@ -52,7 +52,9 @@ function Footer() {
                   <Col>
                     <div className="mb-4">
                       <aside>
-                        <h4 className="Footer__subheader mb-3">Oficina</h4>
+                        <h4 className="Footer__subheader mb-3">
+                          Nuestra oficina
+                        </h4>
                         <ul className="Footer__list">
                           <li>
                             <span className="ml-0 font-weight-bold">
@@ -67,7 +69,8 @@ function Footer() {
                               Horario de atención:{' '}
                             </span>
                             <span className="ml-0">
-                              de Lunes a Viernes de 9 a 17 hs.
+                              Lunes a Viernes de 08:00 a 12:00 y 14:00 a 16:00
+                              hs
                             </span>
                           </li>
                           <li>

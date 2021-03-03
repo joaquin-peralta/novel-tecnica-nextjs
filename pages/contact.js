@@ -15,7 +15,7 @@ const Contact = () => {
         <p>
           Para adquirir nuestros productos o para más información y
           asesoramiento, comuníquese con nosotros a través de los siguientes
-          medios, o acérquese a nuestra oficina:
+          medios, o acérquese a nuestras oficinas:
         </p>
       </Container>
       <Container className="my-4">

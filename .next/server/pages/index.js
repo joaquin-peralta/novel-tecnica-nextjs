@@ -933,7 +933,7 @@ const CardInfo = {
     four: {
       icon: /*#__PURE__*/Object(jsx_runtime_["jsx"])(gi_["GiEcology"], {}),
       title: 'Ecológico',
-      description: 'Tecnología limpia, totalmente ecológica. Total eficiencia ' + 'en tratamiento microbiológico y desinfección. Disminución de costos ' + 'en productos de desinfección. Ausencia total de residuos químicos.'
+      description: 'Tecnología limpia, totalmente ecológica. Extrema eficiencia ' + 'en tratamiento microbiológico y desinfección. Disminución de costos ' + 'en productos de desinfección. Ausencia total de residuos químicos.'
     }
   },
   complementaryComps: {
@@ -1026,7 +1026,7 @@ const Home = () => /*#__PURE__*/Object(jsx_runtime_["jsxs"])("div", {
             children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])(Col_default.a, {
               sm: true,
               children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("p", {
-                children: "Somos una empresa dedicada al desarrollo de equipos para generaci\xF3n de ozono y de sus aplicaciones, formada por profesionales de la ingenier\xEDa qu\xEDmica, electr\xF3nica e industrial con m\xE1s de 15 a\xF1os de experiencia en ozono y sus tecnolog\xEDas asociadas."
+                children: "Somos una empresa dedicada al desarrollo de equipos para generaci\xF3n de ozono y sus aplicaciones, formada por profesionales de la ingenier\xEDa qu\xEDmica, electr\xF3nica e industrial con m\xE1s de 15 a\xF1os de experiencia en ozono y sus tecnolog\xEDas asociadas."
               }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("div", {
                 className: "img-fluid",
                 children: /*#__PURE__*/Object(jsx_runtime_["jsx"])(image_default.a, {

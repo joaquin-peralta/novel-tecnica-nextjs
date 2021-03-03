@@ -3197,7 +3197,7 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
                 children: "F\xE1cil de usar, controles intuitivos."
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                children: "Ventilador incorporado para recircular el aire del ambiente y mejorar la distribuci\xF3n del ozono en el ambiente."
+                children: "Ventilador incorporado para recirculaci\xF3n de aire y mejorar la distribuci\xF3n del ozono en el ambiente."
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
                 children: "Fabricaci\xF3n 100% nacional, lo que permite garantizar el mejor servicio y asistencia post venta."
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
@@ -3493,7 +3493,7 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4___default.a, {
           lg: true,
           children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-            children: "Dise\xF1ado para alimentar los generadores de ozono en aquellas aplicaciones en las que se requiera el uso de ox\xEDgeno. Con tecnolog\xEDa de absorci\xF3n por presi\xF3n de aire, permiten separar el ox\xEDgeno del aire para usarlo en la alimentaci\xF3n del generador de ozono u otras aplicaciones que puedan requerir el uso de ox\xEDgeno."
+            children: "Dise\xF1ado para alimentar los generadores de ozono en aquellas aplicaciones en las que se requiera el uso de ox\xEDgeno. Con tecnolog\xEDa de adsorci\xF3n por presi\xF3n, permiten separar el ox\xEDgeno del aire para usarlo en la alimentaci\xF3n del generador de ozono u otras aplicaciones que puedan requerir el uso de ox\xEDgeno."
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_components_Card_FeatureCard__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
             color: "orange",
             children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", {
@@ -3551,7 +3551,7 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
             className: "heading-h3--yellow-border my-2",
             children: "Temporizador programable"
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-            children: "Permite programar para cada d\xEDa de la semana dos franjas horarias de trabajo con sus correspondientes porcentajes de generaci\xF3n de ozono. De este modo se puede automatizar el control del generador de ozono diferenciando las condiciones para diferentes d\xEDas. Ideal para control de c\xE1maras y desinfecci\xF3n de ambientes."
+            children: "Permite programar para cada d\xEDa de la semana dos franjas horarias de trabajo con sus correspondientes porcentajes de generaci\xF3n de ozono. De este modo se puede automatizar el control del generador de ozono diferenciando las condiciones para cada d\xEDa. Ideal para control de c\xE1maras y desinfecci\xF3n de ambientes."
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_components_Card_FeatureCard__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
             color: "yellow",
             children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", {
@@ -3560,8 +3560,6 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
             }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("ul", {
               children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
                 children: "Programaci\xF3n simple."
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-                children: "Permite el control de varios equipos a la vez."
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
                 children: "Sistema de copiado de d\xEDas para simplificar la programaci\xF3n."
               }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
@@ -3604,7 +3602,7 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
             className: "heading-h3--yellow-border my-2",
             children: "Sistemas de contacto gas-l\xEDquido para disoluci\xF3n de ozono en agua"
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-            children: "Dise\xF1ado para aquellas aplicaciones que requieran disolver el ozono en agua en altas concentraciones. Construido en acero inoxidable y PVC, se logra durabilidad y confiablidad. Incluye inyector venturi en kynar, especialmente dise\xF1ado para disoluci\xF3n de ozono en agua."
+            children: "Dise\xF1ado para aquellas aplicaciones que requieran disolver el ozono en agua en altas concentraciones. Construido en acero inoxidable y PVC, se logra durabilidad y confiablidad. Incluye inyector venturi, especialmente dise\xF1ado para disoluci\xF3n de ozono en agua."
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_components_Card_FeatureCard__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
             color: "yellow",
             children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", {

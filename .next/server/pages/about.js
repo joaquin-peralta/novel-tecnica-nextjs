@@ -250,7 +250,7 @@ const About = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODU
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("hr", {
           className: "mt-1 mb-2"
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-          children: "Somos una empresa dedicada al desarrollo de equipos para generaci\xF3n de ozono y de sus aplicaciones, formada por profesionales de la ingenier\xEDa qu\xEDmica, electr\xF3nica e industrial con m\xE1s de 15 a\xF1os de experiencia en ozono y sus tecnolog\xEDas asociadas."
+          children: "Somos una empresa dedicada al desarrollo de equipos para generaci\xF3n de ozono y sus aplicaciones, formada por profesionales de la ingenier\xEDa qu\xEDmica, electr\xF3nica e industrial con m\xE1s de 15 a\xF1os de experiencia en ozono y sus tecnolog\xEDas asociadas."
         })]
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4___default.a, {
         sm: true,
@@ -341,7 +341,7 @@ const About = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODU
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
         children: "Tratamiento de aire acondicionado y c\xE1maras frigor\xEDficas."
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-        children: "Desinfecci\xF3n de agua de torres de enfriamiento."
+        children: "Desinfecci\xF3n de agua en torres de enfriamiento."
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
         children: "Desinfecci\xF3n en plantas de empaque de alimentos."
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {

@@ -35,8 +35,8 @@ const Equipment = () => (
                 </li>
                 <li>Fácil de usar, controles intuitivos.</li>
                 <li>
-                  Ventilador incorporado para recircular el aire del ambiente y
-                  mejorar la distribución del ozono en el ambiente.
+                  Ventilador incorporado para recirculación de aire y mejorar la
+                  distribución del ozono en el ambiente.
                 </li>
                 <li>
                   Fabricación 100% nacional, lo que permite garantizar el mejor
@@ -269,9 +269,9 @@ const Equipment = () => (
             <p>
               Diseñado para alimentar los generadores de ozono en aquellas
               aplicaciones en las que se requiera el uso de oxígeno. Con
-              tecnología de absorción por presión de aire, permiten separar el
-              oxígeno del aire para usarlo en la alimentación del generador de
-              ozono u otras aplicaciones que puedan requerir el uso de oxígeno.
+              tecnología de adsorción por presión, permiten separar el oxígeno
+              del aire para usarlo en la alimentación del generador de ozono u
+              otras aplicaciones que puedan requerir el uso de oxígeno.
             </p>
             <FeatureCard color="orange">
               <h4 className="heading-h4 mb-2">Características:</h4>
@@ -318,14 +318,13 @@ const Equipment = () => (
               Permite programar para cada día de la semana dos franjas horarias
               de trabajo con sus correspondientes porcentajes de generación de
               ozono. De este modo se puede automatizar el control del generador
-              de ozono diferenciando las condiciones para diferentes días. Ideal
-              para control de cámaras y desinfección de ambientes.
+              de ozono diferenciando las condiciones para cada día. Ideal para
+              control de cámaras y desinfección de ambientes.
             </p>
             <FeatureCard color="yellow">
               <h4 className="heading-h4 mb-2">Características:</h4>
               <ul>
                 <li>Programación simple.</li>
-                <li>Permite el control de varios equipos a la vez.</li>
                 <li>
                   Sistema de copiado de días para simplificar la programación.
                 </li>
@@ -364,8 +363,8 @@ const Equipment = () => (
               Diseñado para aquellas aplicaciones que requieran disolver el
               ozono en agua en altas concentraciones. Construido en acero
               inoxidable y PVC, se logra durabilidad y confiablidad. Incluye
-              inyector venturi en kynar, especialmente diseñado para disolución
-              de ozono en agua.
+              inyector venturi, especialmente diseñado para disolución de ozono
+              en agua.
             </p>
             <FeatureCard color="yellow">
               <h4 className="heading-h4 mb-2">Características:</h4>

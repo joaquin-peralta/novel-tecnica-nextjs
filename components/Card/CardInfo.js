@@ -32,7 +32,7 @@ const CardInfo = {
       icon: <GiIcons.GiEcology />,
       title: 'Ecológico',
       description:
-        'Tecnología limpia, totalmente ecológica. Total eficiencia ' +
+        'Tecnología limpia, totalmente ecológica. Extrema eficiencia ' +
         'en tratamiento microbiológico y desinfección. Disminución de costos ' +
         'en productos de desinfección. Ausencia total de residuos químicos.',
     },

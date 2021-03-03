@@ -17,7 +17,7 @@ const About = () => (
           <hr className="mt-1 mb-2" />
           <p>
             Somos una empresa dedicada al desarrollo de equipos para generación
-            de ozono y de sus aplicaciones, formada por profesionales de la
+            de ozono y sus aplicaciones, formada por profesionales de la
             ingeniería química, electrónica e industrial con más de 15 años de
             experiencia en ozono y sus tecnologías asociadas.
           </p>
@@ -98,7 +98,7 @@ const About = () => (
           Control microbiológico del aire en salas de elaboración de alimentos.
         </li>
         <li>Tratamiento de aire acondicionado y cámaras frigoríficas.</li>
-        <li>Desinfección de agua de torres de enfriamiento.</li>
+        <li>Desinfección de agua en torres de enfriamiento.</li>
         <li>Desinfección en plantas de empaque de alimentos.</li>
         <li>Calidad de agua en centros de diálisis.</li>
       </ul>

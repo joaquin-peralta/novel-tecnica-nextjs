@@ -538,7 +538,7 @@ function Footer() {
                     children: /*#__PURE__*/Object(jsx_runtime_["jsxs"])("aside", {
                       children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])("h4", {
                         className: "Footer__subheader mb-3",
-                        children: "Oficina"
+                        children: "Nuestra oficina"
                       }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("ul", {
                         className: "Footer__list",
                         children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("li", {
@@ -555,7 +555,7 @@ function Footer() {
                             children: ["Horario de atenci\xF3n:", ' ']
                           }), /*#__PURE__*/Object(jsx_runtime_["jsx"])("span", {
                             className: "ml-0",
-                            children: "de Lunes a Viernes de 9 a 17 hs."
+                            children: "Lunes a Viernes de 08:00 a 12:00 y 14:00 a 16:00 hs"
                           })]
                         }), /*#__PURE__*/Object(jsx_runtime_["jsxs"])("li", {
                           children: [/*#__PURE__*/Object(jsx_runtime_["jsxs"])("span", {

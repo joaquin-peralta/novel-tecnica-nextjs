@@ -34,7 +34,7 @@ const Home = () => (
               <Col sm>
                 <p>
                   Somos una empresa dedicada al desarrollo de equipos para
-                  generación de ozono y de sus aplicaciones, formada por
+                  generación de ozono y sus aplicaciones, formada por
                   profesionales de la ingeniería química, electrónica e
                   industrial con más de 15 años de experiencia en ozono y sus
                   tecnologías asociadas.

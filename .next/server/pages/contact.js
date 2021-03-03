@@ -225,7 +225,7 @@ const Contact = () => {
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("hr", {
         className: " mt-1 mb-2"
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-        children: "Para adquirir nuestros productos o para m\xE1s informaci\xF3n y asesoramiento, comun\xEDquese con nosotros a trav\xE9s de los siguientes medios, o ac\xE9rquese a nuestra oficina:"
+        children: "Para adquirir nuestros productos o para m\xE1s informaci\xF3n y asesoramiento, comun\xEDquese con nosotros a trav\xE9s de los siguientes medios, o ac\xE9rquese a nuestras oficinas:"
       })]
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_4___default.a, {
       className: "my-4",
