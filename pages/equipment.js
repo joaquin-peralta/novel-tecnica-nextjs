@@ -62,19 +62,19 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
-                    alt="Generador de ozono Serie A1"
+                    alt="Generador de ozono Serie A-1"
                     width={4000}
                     height={3000}
                     quality="30"
                   />
                   <Carousel.Caption>
-                    <p style={{ color: '#222' }}>Serie A1</p>
+                    <h4 style={{ color: '#222' }}>A-1</h4>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg"
-                    alt="Generador de ozono Serie A1"
+                    alt="Generador de ozono Serie A-1"
                     width={4000}
                     height={3000}
                     quality="30"
@@ -83,7 +83,7 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719342/novel-tecnica/A1_003_cwpsae.jpg"
-                    alt="Generador de ozono Serie A1"
+                    alt="Generador de ozono Serie A-1"
                     width={4000}
                     height={3000}
                     quality="30"
@@ -92,19 +92,19 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_001_v503vy.jpg"
-                    alt="Generador de ozono Serie A2"
+                    alt="Generador de ozono Serie A-2"
                     width={4000}
                     height={3000}
                     quality="30"
                   />
                   <Carousel.Caption>
-                    <p style={{ color: '#222' }}>Serie A2</p>
+                    <h4 style={{ color: '#222' }}>A-2</h4>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_002_kcjj9e.jpg"
-                    alt="Generador de ozono Serie A2"
+                    alt="Generador de ozono Serie A-2"
                     width={4000}
                     height={3000}
                     quality="30"
@@ -113,7 +113,7 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A2_003_jrx34r.jpg"
-                    alt="Generador de ozono Serie A2"
+                    alt="Generador de ozono Serie A-2"
                     width={4000}
                     height={3000}
                     quality="30"
@@ -184,19 +184,19 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719046/novel-tecnica/HF2_001_jmtiqp.jpg"
-                    alt="Generador de ozono industrial Serie HF2"
+                    alt="Generador de ozono industrial Serie HF-2"
                     width={1500}
                     height={1526}
                     quality="30"
                   />
                   <Carousel.Caption>
-                    <p style={{ color: '#222' }}>Serie HF2</p>
+                    <h4 style={{ color: '#222' }}>HF-2</h4>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719047/novel-tecnica/HF2_002_hyfhnr.jpg"
-                    alt="Interior del generador de ozono Serie HF2"
+                    alt="Interior del generador de ozono Serie HF-2"
                     width={1800}
                     height={1510}
                     quality="30"
@@ -205,19 +205,19 @@ const Equipment = () => (
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719048/novel-tecnica/HF4_001_jlmqu3.jpg"
-                    alt="Generador de ozono Serie HF4"
+                    alt="Generador de ozono Serie HF-4"
                     width={1500}
                     height={1597}
                     quality="30"
                   />
                   <Carousel.Caption>
-                    <p style={{ color: '#222' }}>Serie HF4</p>
+                    <h4 style={{ color: '#222' }}>HF-4</h4>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                   <Image
                     src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719048/novel-tecnica/HF4_002_ulj3ih.jpg"
-                    alt="Generador de ozono Serie HF4"
+                    alt="Generador de ozono Serie HF-4"
                     width={1500}
                     height={2101}
                     quality="30"
