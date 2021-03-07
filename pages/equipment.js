@@ -62,7 +62,7 @@ const Equipment = () => (
                 <Carousel.Item>
                   <div className="w-100" style={{ minHeight: '30rem' }}>
                     <Image
-                      src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg"
+                      src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719342/novel-tecnica/A1_003_cwpsae.jpg"
                       alt="Generador de ozono Serie A-1"
                       layout="fill"
                       objectFit="contain"
@@ -77,17 +77,6 @@ const Equipment = () => (
                   <div className="w-100" style={{ minHeight: '30rem' }}>
                     <Image
                       src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg"
-                      alt="Generador de ozono Serie A-1"
-                      layout="fill"
-                      objectFit="contain"
-                      quality="30"
-                    />
-                  </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <div className="w-100" style={{ minHeight: '30rem' }}>
-                    <Image
-                      src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719342/novel-tecnica/A1_003_cwpsae.jpg"
                       alt="Generador de ozono Serie A-1"
                       layout="fill"
                       objectFit="contain"
@@ -361,10 +350,10 @@ const Equipment = () => (
             </h3>
             <p>
               Diseñado para aquellas aplicaciones que requieran disolver el
-              ozono en agua en altas concentraciones. Construido en acero
-              inoxidable y PVC, se logra durabilidad y confiablidad. Incluye
-              inyector venturi, especialmente diseñado para disolución de ozono
-              en agua.
+              ozono en agua y alcanzar altas concentraciones. Construido en
+              acero inoxidable y PVC, se logra durabilidad y confiablidad.
+              Incluye inyector venturi, especialmente diseñado para disolución
+              de ozono en agua.
             </p>
             <FeatureCard color="yellow">
               <h4 className="heading-h4 mb-2">Características:</h4>

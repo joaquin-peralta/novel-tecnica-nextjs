@@ -3230,7 +3230,7 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                     minHeight: '30rem'
                   },
                   children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_8___default.a, {
-                    src: "https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688643/novel-tecnica/A1_001_rp0ggj.jpg",
+                    src: "https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719342/novel-tecnica/A1_003_cwpsae.jpg",
                     alt: "Generador de ozono Serie A-1",
                     layout: "fill",
                     objectFit: "contain",
@@ -3252,20 +3252,6 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
                   },
                   children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_8___default.a, {
                     src: "https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688644/novel-tecnica/A1_002_yrwzdl.jpg",
-                    alt: "Generador de ozono Serie A-1",
-                    layout: "fill",
-                    objectFit: "contain",
-                    quality: "30"
-                  })
-                })
-              }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_7___default.a.Item, {
-                children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-                  className: "w-100",
-                  style: {
-                    minHeight: '30rem'
-                  },
-                  children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(next_image__WEBPACK_IMPORTED_MODULE_8___default.a, {
-                    src: "https://res.cloudinary.com/dcjnbvln1/image/upload/v1614719342/novel-tecnica/A1_003_cwpsae.jpg",
                     alt: "Generador de ozono Serie A-1",
                     layout: "fill",
                     objectFit: "contain",
@@ -3602,7 +3588,7 @@ const Equipment = () => /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_
             className: "heading-h3--yellow-border my-2",
             children: "Sistemas de contacto gas-l\xEDquido para disoluci\xF3n de ozono en agua"
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-            children: "Dise\xF1ado para aquellas aplicaciones que requieran disolver el ozono en agua en altas concentraciones. Construido en acero inoxidable y PVC, se logra durabilidad y confiablidad. Incluye inyector venturi, especialmente dise\xF1ado para disoluci\xF3n de ozono en agua."
+            children: "Dise\xF1ado para aquellas aplicaciones que requieran disolver el ozono en agua y alcanzar altas concentraciones. Construido en acero inoxidable y PVC, se logra durabilidad y confiablidad. Incluye inyector venturi, especialmente dise\xF1ado para disoluci\xF3n de ozono en agua."
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(_components_Card_FeatureCard__WEBPACK_IMPORTED_MODULE_6__[/* default */ "a"], {
             color: "yellow",
             children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h4", {

@@ -903,11 +903,7 @@ var fa_ = __webpack_require__("5mtF");
 // EXTERNAL MODULE: external "react-icons/si"
 var si_ = __webpack_require__("+wZM");
 
-// EXTERNAL MODULE: external "react-icons/bi"
-var bi_ = __webpack_require__("eRny");
-
 // CONCATENATED MODULE: ./components/Card/CardInfo.js
-
 
 
 
@@ -928,29 +924,12 @@ const CardInfo = {
     three: {
       icon: /*#__PURE__*/Object(jsx_runtime_["jsx"])(fa_["FaAward"], {}),
       title: 'Calidad y experiencia',
-      description: 'Profesionales con más de diez años de experiencia en el ' + 'desarrollo de aplicaciones y equipamiento.'
+      description: 'Profesionales con más de quince años de experiencia en el ' + 'desarrollo de aplicaciones y equipamiento.'
     },
     four: {
       icon: /*#__PURE__*/Object(jsx_runtime_["jsx"])(gi_["GiEcology"], {}),
       title: 'Ecológico',
-      description: 'Tecnología limpia, totalmente ecológica. Extrema eficiencia ' + 'en tratamiento microbiológico y desinfección. Disminución de costos ' + 'en productos de desinfección. Ausencia total de residuos químicos.'
-    }
-  },
-  complementaryComps: {
-    one: {
-      icon: /*#__PURE__*/Object(jsx_runtime_["jsx"])(bi_["BiTimer"], {}),
-      title: 'Temporizador programable:',
-      description: 'Permite programar para cada día de la semana dos franjas ' + 'horarias de trabajo con sus correspondientes porcentajes de generación ' + 'de ozono. De este modo se puede automatizar el control del generador ' + 'de ozono diferenciando las condiciones para diferentes días. Ideal para ' + 'control de cámaras y desinfección de ambientes.'
-    },
-    two: {
-      icon: /*#__PURE__*/Object(jsx_runtime_["jsx"])(gi_["GiMolecule"], {}),
-      title: 'Concentrador de oxígeno por PSA:',
-      description: 'Diseñado para alimentar los generadores de ozono en aquellas aplicaciones' + 'en las que se requiera el uso de oxígeno. Con tecnología de Adsorción por' + 'presión de aire, permiten separar el oxígeno del aire para usarlo en la' + 'alimentación del generador de ozono u otras aplicaciones que puedan requerir' + 'el uso de oxígeno.'
-    },
-    three: {
-      icon: /*#__PURE__*/Object(jsx_runtime_["jsx"])(go_["GoCircuitBoard"], {}),
-      title: 'Sistemas de contacto gas-líquido para disolución de ozono en agua:',
-      description: 'Diseñado para aquellas aplicaciones que requieran disolver el ozono en agua' + 'en altas concentraciones. Construido en acero inoxidable y PVC, se logra' + 'durabilidad y confiablidad. Incluye inyector venturi en kynar, especialmente' + 'diseñado para disolución de ozono en agua.'
+      description: 'Tecnología limpia, totalmente ecológica. Extrema eficiencia ' + 'en tratamiento microbiológico y desinfección. Disminución de costos ' + 'en productos sanitizantes. Ausencia total de residuos químicos.'
     }
   }
 };
@@ -2143,13 +2122,6 @@ function mitt() {
 
   };
 }
-
-/***/ }),
-
-/***/ "eRny":
-/***/ (function(module, exports) {
-
-module.exports = require("react-icons/bi");
 
 /***/ }),
 

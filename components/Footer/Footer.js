@@ -53,7 +53,7 @@ function Footer() {
                     <div className="mb-4">
                       <aside>
                         <h4 className="Footer__subheader mb-3">
-                          Nuestra oficina
+                          Nuestras oficinas
                         </h4>
                         <ul className="Footer__list">
                           <li>
@@ -69,7 +69,7 @@ function Footer() {
                               Horario de atención:{' '}
                             </span>
                             <span className="ml-0">
-                              Lunes a Viernes de 08:00 a 12:00 y 14:00 a 16:00
+                              Lunes a Viernes de 08:00 a 12:00 y 14:00 a 18:00
                               hs
                             </span>
                           </li>
