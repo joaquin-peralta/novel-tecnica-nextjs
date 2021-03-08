@@ -1,6 +1,7 @@
+import sslRedirect from 'heroku-ssl-redirect';
+import express from 'express';
+
 const next = require('next');
-const express = require('express');
-const sslRedirect = require('heroku-ssl-redirect');
 
 const port = parseInt(process.env.PORT, 10) || 3000;
 const dev = process.env.NODE_ENV !== 'production';
