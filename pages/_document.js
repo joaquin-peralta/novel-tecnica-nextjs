@@ -41,10 +41,7 @@ class MyDocument extends Document {
           />
           <meta property="og:image:width" content="800" />
           <meta property="og:image:height" content="800" />
-          <meta
-            property="og:url"
-            content="https://noveltecnica.herokuapp.com/"
-          />
+          <meta property="og:url" content="https://www.noveltecnica.com" />
           <meta property="og:site_name" content="Novel Técnica" />
         </Head>
         <body>

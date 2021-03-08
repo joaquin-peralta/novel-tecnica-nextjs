@@ -167,7 +167,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
           content: "800"
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("meta", {
           property: "og:url",
-          content: "https://noveltecnica.herokuapp.com/"
+          content: "https://www.noveltecnica.com"
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("meta", {
           property: "og:site_name",
           content: "Novel T\xE9cnica"
