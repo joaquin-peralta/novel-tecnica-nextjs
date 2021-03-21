@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { jsx as _jsx } from \"react/jsx-runtime\";\n\nfunction FeatureCard(_ref) {\n  var color = _ref.color,\n      children = _ref.children;\n  return /*#__PURE__*/_jsx(\"div\", {\n    className: \"FeatureCard--\".concat(color),\n    children: children\n  });\n}\n\nexport default FeatureCard;","map":null,"metadata":{},"sourceType":"module"}
