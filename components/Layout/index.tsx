@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { SidebarContext } from '@context/SidebarContext';
-import { SidebarContent } from '@context/SidebarContext';
-import Navbar from '@components/Navbar/Navbar';
+import Navbar from '@components/Navbar';
 import Sidebar from '@components/Sidebar';
 import Footer from '@components/Footer/Footer';
 

@@ -1,0 +1,18 @@
+@import '../variables';
+
+.title {
+  color: $background;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.slogan {
+  color: $background;
+  font-size: 1.6rem;
+}
+
+.heroButton {
+  font-size: 1.25rem;
+  font-weight: 500;
+}

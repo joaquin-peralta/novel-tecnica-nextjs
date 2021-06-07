@@ -1,0 +1,23 @@
+@import '../variables';
+
+.card {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-color: $background;
+  box-shadow: 3px 3px 5px 1px #ddd;
+  color: $main-text;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 3rem;
+
+  &:hover {
+    text-decoration: none;
+    color: $darkgray;
+    background-color: #eee;
+    box-shadow: 3px 3px 10px 5px #ddd;
+    transition: 0.2s;
+  }
+}
