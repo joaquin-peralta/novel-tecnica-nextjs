@@ -18,9 +18,7 @@ const Home = () => (
         <h1>Novel Técnica</h1>
         <p className="mb-5">Innovación y desarrollo en ozono</p>
         <Link href="/equipment">
-          <a className="btn-custom text-uppercase font-weight-bold">
-            Nuestros equipos
-          </a>
+          <a className="btn-custom text-uppercase font-weight-bold">Nuestros equipos</a>
         </Link>
       </div>
     </div>
@@ -33,35 +31,26 @@ const Home = () => (
             <Row>
               <Col sm>
                 <p>
-                  Somos una empresa dedicada al desarrollo de equipos para
-                  generación de ozono y sus aplicaciones, formada por
-                  profesionales de la ingeniería química, electrónica e
-                  industrial con más de 15 años de experiencia en ozono y sus
-                  tecnologías asociadas.
+                  Somos una empresa dedicada al desarrollo de equipos para generación de ozono y sus
+                  aplicaciones, formada por profesionales de la ingeniería química, electrónica e
+                  industrial con más de 15 años de experiencia en ozono y sus tecnologías asociadas.
                 </p>
                 <div className="img-fluid">
-                  <Image
-                    src="/logo2.png"
-                    alt="Novel Técnica logo"
-                    width={400}
-                    height={270}
-                  />
+                  <Image src="/logo2.png" alt="Novel Técnica logo" width={400} height={270} />
                 </div>
               </Col>
               <Col sm>
                 <p className="font-weight-bold mb-1">Misión de la empresa:</p>
                 <p>
-                  Ofrecer soluciones confiables, ecológicas y eficientes a los
-                  problemas de desinfección tanto de la industria como del
-                  entorno cotidiano de las personas mediante tecnología de
-                  avanzada, aportando también la ingeniería asociada a cada
+                  Ofrecer soluciones confiables, ecológicas y eficientes a los problemas de
+                  desinfección tanto de la industria como del entorno cotidiano de las personas
+                  mediante tecnología de avanzada, aportando también la ingeniería asociada a cada
                   proyecto.
                 </p>
                 <p className="font-weight-bold mb-1">Visión de la empresa:</p>
                 <p>
-                  Novel Técnica, una empresa de ingeniería líder en equipamiento
-                  y tecnología de avanzada para desinfección ecológica mediante
-                  ozono y tecnologías asociadas.
+                  Novel Técnica, una empresa de ingeniería líder en equipamiento y tecnología de
+                  avanzada para desinfección ecológica mediante ozono y tecnologías asociadas.
                 </p>
               </Col>
             </Row>
@@ -75,16 +64,12 @@ const Home = () => (
                   <Col sm lg>
                     <Card>
                       <ul className="list-unstyled text-center">
-                        <li className="Card__icon">
-                          {CardInfo.features.one.icon}
-                        </li>
+                        <li className="Card__icon">{CardInfo.features.one.icon}</li>
                         <hr className="mx-5" />
                         <li className="text-uppercase font-weight-bold">
                           {CardInfo.features.one.title}
                         </li>
-                        <li className="py-3">
-                          {CardInfo.features.one.description}
-                        </li>
+                        <li className="py-3">{CardInfo.features.one.description}</li>
                       </ul>
                     </Card>
                   </Col>
@@ -93,16 +78,12 @@ const Home = () => (
                   <Col sm lg>
                     <Card>
                       <ul className="list-unstyled text-center">
-                        <li className="Card__icon">
-                          {CardInfo.features.two.icon}
-                        </li>
+                        <li className="Card__icon">{CardInfo.features.two.icon}</li>
                         <hr className="mx-5" />
                         <li className="text-uppercase font-weight-bold">
                           {CardInfo.features.two.title}
                         </li>
-                        <li className="py-3">
-                          {CardInfo.features.two.description}
-                        </li>
+                        <li className="py-3">{CardInfo.features.two.description}</li>
                       </ul>
                     </Card>
                   </Col>
@@ -111,16 +92,12 @@ const Home = () => (
                   <Col sm lg>
                     <Card>
                       <ul className="list-unstyled text-center">
-                        <li className="Card__icon">
-                          {CardInfo.features.three.icon}
-                        </li>
+                        <li className="Card__icon">{CardInfo.features.three.icon}</li>
                         <hr className="mx-5" />
                         <li className="text-uppercase font-weight-bold">
                           {CardInfo.features.three.title}
                         </li>
-                        <li className="py-3">
-                          {CardInfo.features.three.description}
-                        </li>
+                        <li className="py-3">{CardInfo.features.three.description}</li>
                       </ul>
                     </Card>
                   </Col>
@@ -129,16 +106,12 @@ const Home = () => (
                   <Col sm lg>
                     <Card>
                       <ul className="list-unstyled text-center">
-                        <li className="Card__icon">
-                          {CardInfo.features.four.icon}
-                        </li>
+                        <li className="Card__icon">{CardInfo.features.four.icon}</li>
                         <hr className="mx-5" />
                         <li className="text-uppercase font-weight-bold">
                           {CardInfo.features.four.title}
                         </li>
-                        <li className="py-3">
-                          {CardInfo.features.four.description}
-                        </li>
+                        <li className="py-3">{CardInfo.features.four.description}</li>
                       </ul>
                     </Card>
                   </Col>
@@ -163,10 +136,7 @@ const Home = () => (
                   <Link href="/equipment#serieA" passHref>
                     <a className="text-reset text-decoration-none">
                       <SquareCard color="blue">
-                        <RiIcons.RiHome7Line
-                          style={{ color: '#23BFC4' }}
-                          className="mb-2"
-                        />
+                        <RiIcons.RiHome7Line style={{ color: '#23BFC4' }} className="mb-2" />
                         <h3 className="heading-h3">
                           Generadores de ozono domésticos y comerciales
                         </h3>
@@ -180,13 +150,8 @@ const Home = () => (
                   <Link href="/equipment#serieHF" passHref>
                     <a className="text-reset text-decoration-none">
                       <SquareCard color="green">
-                        <GiIcons.GiFactory
-                          style={{ color: '#A6D793' }}
-                          className="mb-2"
-                        />
-                        <h3 className="heading-h3">
-                          Generadores de ozono industriales
-                        </h3>
+                        <GiIcons.GiFactory style={{ color: '#A6D793' }} className="mb-2" />
+                        <h3 className="heading-h3">Generadores de ozono industriales</h3>
                       </SquareCard>
                     </a>
                   </Link>
@@ -197,18 +162,10 @@ const Home = () => (
               <div className="mb-3 w-100">
                 <Col>
                   <Link href="/equipment#psa" passHref>
-                    <a
-                      to="/equipment"
-                      className="text-reset text-decoration-none"
-                    >
+                    <a to="/equipment" className="text-reset text-decoration-none">
                       <SquareCard color="orange">
-                        <GiIcons.GiMolecule
-                          style={{ color: '#FFa500' }}
-                          className="mb-2"
-                        />
-                        <h3 className="heading-h3">
-                          Concentrador de oxígeno por PSA
-                        </h3>
+                        <GiIcons.GiMolecule style={{ color: '#FFa500' }} className="mb-2" />
+                        <h3 className="heading-h3">Concentrador de oxígeno por PSA</h3>
                       </SquareCard>
                     </a>
                   </Link>
@@ -217,15 +174,9 @@ const Home = () => (
               <div className="mb-3 w-100">
                 <Col>
                   <Link href="/equipment#auxiliares" passHref>
-                    <a
-                      to="/equipment"
-                      className="text-reset text-decoration-none"
-                    >
+                    <a to="/equipment" className="text-reset text-decoration-none">
                       <SquareCard color="yellow">
-                        <GiIcons.GiGears
-                          style={{ color: '#f1c13b' }}
-                          className="mb-2"
-                        />
+                        <GiIcons.GiGears style={{ color: '#f1c13b' }} className="mb-2" />
                         <h3 className="heading-h3">Equipos auxiliares</h3>
                       </SquareCard>
                     </a>
@@ -243,9 +194,7 @@ const Home = () => (
           <p className="font-italic">Para más información y asesoramiento</p>
           <hr className="mb-5" />
           <Link href="/contact">
-            <a className="btn-custom text-uppercase font-weight-bold">
-              Contactanos
-            </a>
+            <a className="btn-custom text-uppercase font-weight-bold">Contactanos</a>
           </Link>
         </div>
       </div>

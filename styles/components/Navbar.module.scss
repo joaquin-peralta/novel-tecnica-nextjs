@@ -1,0 +1,83 @@
+@import '../variables';
+
+.header {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  background-color: $background;
+}
+
+.navbar {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.brandButton {
+  width: 85px;
+  height: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbarList {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    height: 64px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.listAnchor {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: $main-text;
+  font-weight: 500;
+
+  &:hover {
+    text-decoration: none;
+    color: $darkgray;
+    transition: 0.25s;
+  }
+}
+
+.currentAnchor {
+  @extend .listAnchor;
+  color: $darkgray;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+
+.listItem {
+  display: inline-block;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.lastListItem {
+  @extend .listItem;
+  padding-right: 0;
+}
+
+.menuButton {
+  display: inline-block;
+  font-size: 1.25rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Inicio",
+    "path": "/"
+  },
+  {
+    "title": "Quiénes somos",
+    "path": "/about"
+  },
+  {
+    "title": "Equipos",
+    "path": "/equipment"
+  },
+  {
+    "title": "Contacto",
+    "path": "/contact"
+  }
+]
