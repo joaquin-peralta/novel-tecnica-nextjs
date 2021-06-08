@@ -17,7 +17,7 @@ const Navbar = () => {
         <Link href="/">
           <a className={styles.brandButton}>
             <Image
-              src="/logo-transparent5.png"
+              src="/logo.png"
               alt="Novel Técnica logo"
               width={85}
               height={64}

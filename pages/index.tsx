@@ -20,10 +20,10 @@ function Home() {
         <title>Generadores de Ozono | Novel Técnica</title>
       </Head>
 
-      <Hero imageUrl="/hero3.png">
+      <Hero imageUrl="/hero-edit.png">
         <h1 className={styles.title}>Novel Técnica</h1>
         <p className={styles.slogan}>Innovación y desarrollo en ozono</p>
-        <Button variant="outline-secondary" className={styles.heroButton}>
+        <Button variant="secondary" href="/equipment" className={styles.heroButton}>
           Nuestros equipos
         </Button>
       </Hero>
@@ -113,13 +113,13 @@ function Home() {
         </Container>
       </section>
 
-      <section>
-        <Hero imageUrl="/equipment-model-inside.jpeg" height={256}>
+      <section className="py-0">
+        <Hero imageUrl="/hero2-edit.jpeg" height={256}>
           <p className={`text-uppercase font-italic ${styles.slogan}`}>
             Para más información y asesoramiento
           </p>
-          <hr className="mx-5" />
-          <Button className={styles.heroButton} variant="secondary">
+          <hr className={styles.divisor} />
+          <Button className={styles.heroButton} href="/contact" variant="secondary">
             Contactanos
           </Button>
         </Hero>

@@ -1,0 +1,44 @@
+@import '../variables';
+
+.footer {
+  background-color: $darkgray;
+  color: $lightgray;
+}
+
+.imgContainer {
+  width: 10rem;
+  height: 10rem;
+}
+
+.navList {
+  list-style: none;
+  padding-left: 0;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+
+  a {
+    text-decoration: none;
+    color: $lightgray;
+
+    &:hover {
+      color: $gray-color;
+    }
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.infoList {
+  list-style: none;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  span {
+    font-weight: 700;
+  }
+}

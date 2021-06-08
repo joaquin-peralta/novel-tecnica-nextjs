@@ -25,7 +25,7 @@ const LinkCard = React.forwardRef<HTMLAnchorElement, Props>(
           <IconContext.Provider value={{ size: '38px', color: iconColor }}>
             {icon}
           </IconContext.Provider>
-          <p className="mb-0">{children}</p>
+          <p className="mt-1 mb-0">{children}</p>
         </div>
       </a>
     );
