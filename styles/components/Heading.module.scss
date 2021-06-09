@@ -1,0 +1,26 @@
+@import '../variables';
+
+.blue {
+  padding-left: 1rem;
+  border-left: 3px solid $lightblue-color;
+}
+
+.green {
+  padding-left: 1rem;
+  border-left: 3px solid $lightgreen-color;
+}
+
+.orange {
+  padding-left: 1rem;
+  border-left: 3px solid $orange-color;
+}
+
+.yellow {
+  padding-left: 1rem;
+  border-left: 3px solid $yellow-color;
+}
+
+.gray {
+  padding-left: 1rem;
+  border-left: 3px solid $gray-color;
+}

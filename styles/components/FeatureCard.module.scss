@@ -1,0 +1,35 @@
+@import '../variables';
+
+.featureCard {
+  padding: 1.5rem;
+}
+
+.blue {
+  @extend .featureCard;
+  background-color: $lightblue-color-transparent-dark;
+  border-left: 3px solid $lightblue-color;
+}
+
+.green {
+  @extend .featureCard;
+  background-color: $lightgreen-color-transparent-dark;
+  border-left: 3px solid $lightgreen-color;
+}
+
+.orange {
+  @extend .featureCard;
+  background-color: $orange-color-transparent-dark;
+  border-left: 3px solid $orange-color;
+}
+
+.yellow {
+  @extend .featureCard;
+  background-color: $yellow-color-transparent-dark;
+  border-left: 3px solid $yellow-color;
+}
+
+.gray {
+  @extend .featureCard;
+  background-color: $gray-color-transparent-dark;
+  border-left: 3px solid $gray-color;
+}

@@ -2,7 +2,7 @@ import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
 
 const Map = () => {
-  const position = [-31.447930521044952, -60.92875309668356];
+  const position = new L.LatLng(-31.447930521044952, -60.92875309668356);
   const placeholder = L.icon({
     iconUrl: '/marker-icon.png',
     iconSize: [27, 40],
@@ -19,7 +19,7 @@ const Map = () => {
         <Popup>
           <strong>Novel Técnica</strong>
           <br />
-          Lun a Vie 9 a 17 hs
+          Lun a Vie 9 a 12 y 14 a 18 hs
         </Popup>
       </Marker>
     </MapContainer>

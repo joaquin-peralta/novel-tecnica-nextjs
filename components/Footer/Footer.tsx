@@ -86,7 +86,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <span>Email: </span>
-                  pablolbonvin@gmail.com
+                  noveltecnica@gmail.com
                 </li>
               </ul>
             </aside>
