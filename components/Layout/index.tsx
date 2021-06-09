@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { SidebarContext } from '@context/SidebarContext';
 import Navbar from '@components/Navbar';
 import Sidebar from '@components/Sidebar';
-import Footer from '@components/Footer/Footer';
+import Footer from '@components/Footer';
 
 type Props = {
   children: any;

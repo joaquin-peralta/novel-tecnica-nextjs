@@ -6,6 +6,7 @@ import Collapse from 'react-bootstrap/Collapse';
 import Alert from 'react-bootstrap/Alert';
 import Modal from 'react-bootstrap/Modal';
 import Spinner from 'react-bootstrap/Spinner';
+import Image from 'next/image';
 
 const initialValues = {
   name: '',
@@ -157,9 +158,20 @@ const CustomForm = () => {
           <Modal.Header closeButton>
             <Modal.Title>Mensaje enviado</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Nos contactaremos con usted a la brevedad. Saludos.</Modal.Body>
+          <Modal.Body>
+            <p>Muchas gracias por contactarse con nosotros. Le responderemos a la brevedad.</p>
+            <div className="text-center">
+              <Image
+                src="/logo.png"
+                alt="Novel Técnica logo"
+                width={85}
+                height={64}
+                layout="intrinsic"
+              />
+            </div>
+          </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={() => setShowSuccess(false)}>
+            <Button variant="outline-primary" onClick={() => setShowSuccess(false)}>
               Cerrar
             </Button>
           </Modal.Footer>
