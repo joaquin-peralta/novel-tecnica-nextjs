@@ -1,12 +1,70 @@
 import styles from '@styles/pages/About.module.scss';
+import { useRef, useEffect } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Alert from 'react-bootstrap/Alert';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+import AboutContent from '@db/AboutContent.json';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function About() {
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const imageRef = useRef<HTMLDivElement>(null);
+  const alertOneRef = useRef<HTMLDivElement>(null);
+  const alertTwoRef = useRef<HTMLDivElement>(null);
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const itemsRefs = useRef(new Array());
+
+  useEffect(() => {
+    if (aboutRef.current) {
+      const t1 = gsap.timeline({
+        defaults: { opacity: 0, autoAlpha: 0, duration: 1, ease: 'power4.inOut' },
+      });
+      t1.from(aboutRef.current, {}).from(imageRef.current, { x: 30 }, '-=0.5');
+    }
+
+    if (alertOneRef.current && alertTwoRef.current) {
+      const t2 = gsap.timeline({
+        defaults: { opacity: 0, autoAlpha: 0, scale: 0.75, duration: 1, ease: 'power2.inOut' },
+      });
+      t2.from(alertOneRef.current, {
+        scrollTrigger: {
+          trigger: alertOneRef.current,
+        },
+      }).from(alertTwoRef.current, {});
+    }
+
+    if (headingRef.current) {
+      gsap.from(headingRef.current, {
+        scrollTrigger: {
+          trigger: headingRef.current,
+        },
+        opacity: 0,
+        y: 10,
+      });
+    }
+
+    if (itemsRefs.current) {
+      itemsRefs.current.forEach((ref) => {
+        gsap.from(ref, {
+          scrollTrigger: {
+            trigger: ref,
+            start: 'center 97%',
+          },
+          y: 10,
+          opacity: 0,
+          autoAlpha: 0,
+          duration: 0.8,
+        });
+      });
+    }
+  }, []);
+
   return (
     <>
       <Head>
@@ -16,7 +74,7 @@ function About() {
       <section>
         <Container>
           <Row xs={1} md={2} className="align-items-center">
-            <Col>
+            <Col ref={aboutRef}>
               <h2>
                 <span className={styles.colorBlue}>Novel </span>
                 <span className={styles.colorGreen}>Técnica</span>
@@ -28,7 +86,7 @@ function About() {
                 industrial con más de 15 años de experiencia en ozono y sus tecnologías asociadas.
               </p>
             </Col>
-            <Col>
+            <Col ref={imageRef}>
               <Image
                 src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688646/novel-tecnica/molecule_ewu6q1.png"
                 alt="Molécula"
@@ -40,7 +98,7 @@ function About() {
           </Row>
           <Row lg={2}>
             <div className="mb-2">
-              <Col>
+              <Col ref={alertOneRef}>
                 <Alert variant="info">
                   <p className="font-weight-bold">Misión de la empresa: </p>
                   <p>
@@ -53,7 +111,7 @@ function About() {
               </Col>
             </div>
             <div className="mb-4">
-              <Col>
+              <Col ref={alertTwoRef}>
                 <Alert variant="info">
                   <p className="font-weight-bold">Visión de la empresa: </p>
                   <p>
@@ -69,35 +127,13 @@ function About() {
 
       <section>
         <Container>
-          <h3>Algunas de las aplicaciones más comunes del ozono</h3>
+          <h3 ref={headingRef}>Algunas de las aplicaciones más comunes del ozono</h3>
           <ul>
-            <li>Potabilización microbiológica de agua.</li>
-            <li>Desinfección del agua y envases en plantas embotelladoras de agua.</li>
-            <li>
-              Desinfección de instalaciones en industria alimenticia, tanto en sistemas CIP como
-              manuales.
-            </li>
-            <li>Control de hongos en cámaras de maduración de quesos.</li>
-            <li>Lavado de vegetales procesados.</li>
-            <li>Envasado de panificados en atmósfera controlada.</li>
-            <li>
-              Desinfección de carnes de todo tipo (vacuna, pescado, pollo, etc.) en frigoríficos.
-            </li>
-            <li>Calidad de agua en acuicultura e hidroponia.</li>
-            <li>Desinfección en bodegas.</li>
-            <li>Desinfección de barricas de roble.</li>
-            <li>Áreas blancas en Laboratorios.</li>
-            <li>Tratamientos de aguas industriales.</li>
-            <li>Tratamientos de aguas residuales.</li>
-            <li>Control de olores.</li>
-            <li>Desinfección de ropa de cama en lavanderías industriales y hospitalarias.</li>
-            <li>Tratamiento de aguas para piscinas y spas.</li>
-            <li>Control microbiológico y de olores en granjas.</li>
-            <li>Control microbiológico del aire en salas de elaboración de alimentos.</li>
-            <li>Tratamiento de aire acondicionado y cámaras frigoríficas.</li>
-            <li>Desinfección de agua en torres de enfriamiento.</li>
-            <li>Desinfección en plantas de empaque de alimentos.</li>
-            <li>Calidad de agua en centros de diálisis.</li>
+            {AboutContent.applications.map((item, index) => (
+              <li ref={(element) => itemsRefs.current.splice(index, 1, element)} key={item}>
+                {item}
+              </li>
+            ))}
           </ul>
         </Container>
       </section>

@@ -40,9 +40,9 @@ function Home() {
     ) {
       const t1 = gsap.timeline({ defaults: { opacity: 0 } });
       t1.from(heroFirstRef.current, { autoAlpha: 0 })
-        .from(heroFirstHeadingRef.current, { y: -10 })
-        .from(heroFirstSloganRef.current, { x: -30 })
-        .from(heroFirstButtonRef.current, { x: 30 });
+        .from(heroFirstHeadingRef.current, { y: -10 }, '-=0.15')
+        .from(heroFirstSloganRef.current, { x: -30 }, '-=0.15')
+        .from(heroFirstButtonRef.current, { x: 30 }, '-=0.15');
 
       ScrollTrigger.create({
         animation: t1,
