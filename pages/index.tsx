@@ -12,29 +12,86 @@ import InfoCardData from '@components/Card/InfoCardData';
 import LinkCard from '@components/Card/LinkCard';
 import { RiHome7Line } from 'react-icons/ri';
 import { GiFactory, GiMolecule, GiGears } from 'react-icons/gi';
-import { gsap } from 'gsap/dist/gsap';
+import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
+  const heroFirstRef = useRef<HTMLDivElement>(null);
+  const heroFirstHeadingRef = useRef(null);
+  const heroFirstSloganRef = useRef(null);
+  const heroFirstButtonRef = useRef(null);
+
   const cardRefs = useRef(new Array());
+  const btnRefs = useRef(new Array());
+
+  const heroSecondRef = useRef<HTMLDivElement>(null);
+  const heroSecondHeadingRef = useRef(null);
+  const heroSecondDivisorRef = useRef(null);
+  const heroSecondButtonRef = useRef(null);
 
   useEffect(() => {
+    if (
+      heroFirstRef.current &&
+      heroFirstHeadingRef.current &&
+      heroFirstSloganRef.current &&
+      heroFirstButtonRef.current
+    ) {
+      const t1 = gsap.timeline({ defaults: { opacity: 0 } });
+      t1.from(heroFirstRef.current, { autoAlpha: 0 })
+        .from(heroFirstHeadingRef.current, { y: -10 })
+        .from(heroFirstSloganRef.current, { x: -30 })
+        .from(heroFirstButtonRef.current, { x: 30 });
+
+      ScrollTrigger.create({
+        animation: t1,
+        trigger: heroFirstRef.current,
+      });
+    }
+
     if (cardRefs.current) {
       cardRefs.current.forEach((ref) => {
         gsap.from(ref, {
           scrollTrigger: {
             trigger: ref,
-            markers: true,
+            start: 'center 97%',
           },
           y: 50,
           opacity: 0,
           autoAlpha: 0,
+          duration: 0.7,
         });
       });
     }
-  }, [cardRefs.current]);
+
+    if (btnRefs.current) {
+      btnRefs.current.forEach((ref) => {
+        gsap.from(ref, {
+          scrollTrigger: {
+            trigger: ref,
+            start: 'center 97%',
+          },
+          opacity: 0,
+          autoAlpha: 0,
+          duration: 1,
+          scale: 0.8,
+          ease: 'back',
+          stagger: 0.2,
+        });
+      });
+    }
+
+    if (heroSecondRef.current) {
+      gsap.from(heroSecondRef.current, {
+        scrollTrigger: {
+          trigger: heroSecondRef.current,
+        },
+        opacity: 0,
+        autoAlpha: 0,
+      });
+    }
+  }, []);
 
   return (
     <>
@@ -42,10 +99,19 @@ function Home() {
         <title>Generadores de Ozono | Novel Técnica</title>
       </Head>
 
-      <Hero imageUrl="/hero-edit.png">
-        <h1 className={styles.title}>Novel Técnica</h1>
-        <p className={styles.slogan}>Innovación y desarrollo en ozono</p>
-        <Button variant="secondary" href="/equipment" className={styles.heroButton}>
+      <Hero ref={heroFirstRef} imageUrl="/hero-edit.png">
+        <h1 ref={heroFirstHeadingRef} className={styles.title}>
+          Novel Técnica
+        </h1>
+        <p ref={heroFirstSloganRef} className={styles.slogan}>
+          Innovación y desarrollo en ozono
+        </p>
+        <Button
+          ref={heroFirstButtonRef}
+          variant="secondary"
+          href="/equipment"
+          className={styles.heroButton}
+        >
           Nuestros equipos
         </Button>
       </Hero>
@@ -110,28 +176,44 @@ function Home() {
           <Row xs={1} md={2}>
             <Col className="mb-3">
               <Link href="/equipment" passHref>
-                <LinkCard icon={<RiHome7Line />} iconColor="#23BFC4">
+                <LinkCard
+                  ref={(element) => btnRefs.current.push(element)}
+                  icon={<RiHome7Line />}
+                  iconColor="#23BFC4"
+                >
                   Generadores de ozono domésticos y comerciales
                 </LinkCard>
               </Link>
             </Col>
             <Col className="mb-3">
               <Link href="/equipment" passHref>
-                <LinkCard icon={<GiFactory />} iconColor="#A6D793">
+                <LinkCard
+                  ref={(element) => btnRefs.current.push(element)}
+                  icon={<GiFactory />}
+                  iconColor="#A6D793"
+                >
                   Generadores de ozono industriales
                 </LinkCard>
               </Link>
             </Col>
             <Col className="mb-3">
               <Link href="/equipment" passHref>
-                <LinkCard icon={<GiMolecule />} iconColor="#FFa500">
+                <LinkCard
+                  ref={(element) => btnRefs.current.push(element)}
+                  icon={<GiMolecule />}
+                  iconColor="#FFa500"
+                >
                   Concentrador de oxígeno por PSA
                 </LinkCard>
               </Link>
             </Col>
             <Col className="mb-3">
               <Link href="/equipment" passHref>
-                <LinkCard icon={<GiGears />} iconColor="#f1c13b">
+                <LinkCard
+                  ref={(element) => btnRefs.current.push(element)}
+                  icon={<GiGears />}
+                  iconColor="#f1c13b"
+                >
                   Equipos auxiliares
                 </LinkCard>
               </Link>
@@ -141,12 +223,17 @@ function Home() {
       </section>
 
       <section className="py-0">
-        <Hero imageUrl="/hero2-edit.jpeg" height={256}>
-          <p className={`text-uppercase font-italic ${styles.slogan}`}>
+        <Hero ref={heroSecondRef} imageUrl="/hero2-edit.jpeg" height={256}>
+          <p ref={heroSecondHeadingRef} className={`text-uppercase font-italic ${styles.slogan}`}>
             Para más información y asesoramiento
           </p>
-          <hr className={styles.divisor} />
-          <Button className={styles.heroButton} href="/contact" variant="secondary">
+          <hr ref={heroSecondDivisorRef} className={styles.divisor} />
+          <Button
+            ref={heroSecondButtonRef}
+            className={styles.heroButton}
+            href="/contact"
+            variant="secondary"
+          >
             Contactanos
           </Button>
         </Hero>
