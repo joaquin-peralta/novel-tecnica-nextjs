@@ -1,8 +1,8 @@
 import styles from '@styles/pages/Home.module.scss';
+import { useRef, useEffect } from 'react';
 import Head from 'next/head';
 import Hero from '@components/Hero';
 import Link from 'next/link';
-import Image from 'next/image';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -12,8 +12,30 @@ import InfoCardData from '@components/Card/InfoCardData';
 import LinkCard from '@components/Card/LinkCard';
 import { RiHome7Line } from 'react-icons/ri';
 import { GiFactory, GiMolecule, GiGears } from 'react-icons/gi';
+import { gsap } from 'gsap/dist/gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
+  const cardRefs = useRef(new Array());
+
+  useEffect(() => {
+    if (cardRefs.current) {
+      cardRefs.current.forEach((ref) => {
+        gsap.from(ref, {
+          scrollTrigger: {
+            trigger: ref,
+            markers: true,
+          },
+          y: 50,
+          opacity: 0,
+          autoAlpha: 0,
+        });
+      });
+    }
+  }, [cardRefs.current]);
+
   return (
     <>
       <Head>
@@ -63,9 +85,14 @@ function Home() {
       <section>
         <Container>
           <Row xs={1} sm={2} lg={4}>
-            {InfoCardData.map((item) => (
+            {InfoCardData.map((item, index) => (
               <Col key={item.title}>
-                <InfoCard className="mb-3" icon={item.icon} iconColor="#23BFC4">
+                <InfoCard
+                  ref={(element) => cardRefs.current.splice(index, 1, element)}
+                  className="mb-3"
+                  icon={item.icon}
+                  iconColor="#23BFC4"
+                >
                   <p className="text-uppercase font-weight-bold">{item.title}</p>
                   <p>{item.description}</p>
                 </InfoCard>

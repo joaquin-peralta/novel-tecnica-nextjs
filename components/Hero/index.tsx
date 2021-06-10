@@ -1,6 +1,6 @@
 import styles from '@styles/components/Hero.module.scss';
 import { useRef, useEffect } from 'react';
-import gsap from 'gsap';
+import { gsap } from 'gsap';
 import Image from 'next/image';
 
 type Props = {
