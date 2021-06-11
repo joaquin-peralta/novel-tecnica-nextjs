@@ -1,3 +1,4 @@
+import { useRef, useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Container from 'react-bootstrap/Container';
@@ -8,16 +9,44 @@ import FeatureCard from '@components/Card/FeatureCard';
 import Carousel from 'react-bootstrap/Carousel';
 import Image from 'next/image';
 import EquipmentContent from '@db/EquipmentContent.json';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
 
 function Equipment() {
+  const sectionsRefs = useRef(new Array());
+
+  useEffect(() => {
+    if (sectionsRefs.current) {
+      sectionsRefs.current.forEach((ref) => {
+        gsap.from(ref, {
+          scrollTrigger: {
+            trigger: ref,
+            start: 'top center',
+          },
+          opacity: 0,
+          autoAlpha: 0,
+          scale: 0.8,
+          duration: 0.75,
+          ease: 'power2.inOut',
+        });
+      });
+    }
+  }, []);
+
   return (
     <>
       <Head>
         <title>Generadores de ozono | Novel Técnica</title>
       </Head>
 
-      {EquipmentContent.equipments.map((equipment) => (
-        <section key={equipment.title}>
+      {EquipmentContent.equipments.map((equipment, index) => (
+        <section
+          ref={(element) => sectionsRefs.current.splice(index, 1, element)}
+          key={equipment.title}
+          style={{ visibility: 'hidden' }}
+        >
           <Container fluid>
             <Heading className="mb-4" color={equipment.brandColor}>
               {equipment.title}

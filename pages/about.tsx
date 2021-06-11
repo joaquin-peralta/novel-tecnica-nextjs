@@ -45,6 +45,7 @@ function About() {
           trigger: headingRef.current,
         },
         opacity: 0,
+        autoAlpha: 0,
         y: 10,
       });
     }
@@ -74,7 +75,7 @@ function About() {
       <section>
         <Container>
           <Row xs={1} md={2} className="align-items-center">
-            <Col ref={aboutRef}>
+            <Col ref={aboutRef} style={{ visibility: 'hidden' }}>
               <h2>
                 <span className={styles.colorBlue}>Novel </span>
                 <span className={styles.colorGreen}>Técnica</span>
@@ -86,7 +87,7 @@ function About() {
                 industrial con más de 15 años de experiencia en ozono y sus tecnologías asociadas.
               </p>
             </Col>
-            <Col ref={imageRef}>
+            <Col ref={imageRef} style={{ visibility: 'hidden' }}>
               <Image
                 src="https://res.cloudinary.com/dcjnbvln1/image/upload/v1614688646/novel-tecnica/molecule_ewu6q1.png"
                 alt="Molécula"
@@ -98,7 +99,7 @@ function About() {
           </Row>
           <Row lg={2}>
             <div className="mb-2">
-              <Col ref={alertOneRef}>
+              <Col ref={alertOneRef} style={{ visibility: 'hidden' }}>
                 <Alert variant="info">
                   <p className="font-weight-bold">Misión de la empresa: </p>
                   <p>
@@ -111,7 +112,7 @@ function About() {
               </Col>
             </div>
             <div className="mb-4">
-              <Col ref={alertTwoRef}>
+              <Col ref={alertTwoRef} style={{ visibility: 'hidden' }}>
                 <Alert variant="info">
                   <p className="font-weight-bold">Visión de la empresa: </p>
                   <p>
@@ -127,10 +128,16 @@ function About() {
 
       <section>
         <Container>
-          <h3 ref={headingRef}>Algunas de las aplicaciones más comunes del ozono</h3>
+          <h3 ref={headingRef} style={{ visibility: 'hidden' }}>
+            Algunas de las aplicaciones más comunes del ozono
+          </h3>
           <ul>
             {AboutContent.applications.map((item, index) => (
-              <li ref={(element) => itemsRefs.current.splice(index, 1, element)} key={item}>
+              <li
+                ref={(element) => itemsRefs.current.splice(index, 1, element)}
+                key={item}
+                style={{ visibility: 'hidden' }}
+              >
                 {item}
               </li>
             ))}

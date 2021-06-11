@@ -106,14 +106,11 @@ function Home() {
         <p ref={heroFirstSloganRef} className={styles.slogan}>
           Innovación y desarrollo en ozono
         </p>
-        <Button
-          ref={heroFirstButtonRef}
-          variant="secondary"
-          href="/equipment"
-          className={styles.heroButton}
-        >
-          Nuestros equipos
-        </Button>
+        <Link href="/equipment" passHref>
+          <Button ref={heroFirstButtonRef} variant="secondary" className={styles.heroButton}>
+            Nuestros equipos
+          </Button>
+        </Link>
       </Hero>
       <main>
         <Container fluid>
