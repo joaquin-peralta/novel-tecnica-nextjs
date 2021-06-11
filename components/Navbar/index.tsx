@@ -16,13 +16,15 @@ const Navbar = () => {
       <nav className={styles.navbar}>
         <Link href="/">
           <a className={styles.brandButton}>
-            <Image
-              src="/logo.png"
-              alt="Novel Técnica logo"
-              width={85}
-              height={64}
-              layout="intrinsic"
-            />
+            <div className={styles.imgContainer}>
+              <Image
+                src="/logo.png"
+                alt="Novel Técnica logo"
+                width={85}
+                height={64}
+                layout="responsive"
+              />
+            </div>
           </a>
         </Link>
         <button className={styles.menuButton} onClick={toggle} type="button">
