@@ -99,7 +99,7 @@ function Home() {
         <title>Generadores de Ozono | Novel Técnica</title>
       </Head>
 
-      <Hero ref={heroFirstRef} imageUrl="/hero-edit.png">
+      <Hero ref={heroFirstRef} imageUrl="/hero.png">
         <h1 ref={heroFirstHeadingRef} className={styles.title}>
           Novel Técnica
         </h1>
@@ -220,7 +220,7 @@ function Home() {
       </section>
 
       <section className="py-0">
-        <Hero ref={heroSecondRef} imageUrl="/hero2-edit.jpeg" height={256}>
+        <Hero ref={heroSecondRef} imageUrl="/hero2.jpeg" height={256}>
           <p ref={heroSecondHeadingRef} className={`text-uppercase font-italic ${styles.slogan}`}>
             Para más información y asesoramiento
           </p>
