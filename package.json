@@ -23,6 +23,7 @@
     "leaflet-geosearch": "^3.2.1",
     "next": "^10.0.7",
     "nodemailer": "^6.6.1",
+    "nprogress": "^0.2.0",
     "react": "^17.0.1",
     "react-awesome-slider": "^4.1.0",
     "react-bootstrap": "^1.5.0",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@types/gsap": "^3.0.0",
     "@types/node": "^15.12.0",
+    "@types/nprogress": "^0.2.0",
     "@types/react-responsive": "^8.0.2",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",

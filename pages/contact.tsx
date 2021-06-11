@@ -8,7 +8,7 @@ import Alert from 'react-bootstrap/Alert';
 import { IconContext } from 'react-icons';
 import { FaWhatsapp, FaPaperPlane, FaMapMarkerAlt } from 'react-icons/fa';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
-import gsap from 'gsap/all';
+import { gsap } from 'gsap';
 
 gsap.registerPlugin(ScrollTrigger);
 
